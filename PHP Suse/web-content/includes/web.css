@@ -13,6 +13,7 @@ article, aside, details, footer, header, nav, section { display: block; }
 nav a, footer section a { text-decoration: none; }
 nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
 a.tel:hover, p.social a:hover { border: none; color: #fff; }
+a.tel:hover { cursor: text; }
 nav a, span.selected { text-transform: uppercase; }
 span.selected { color: #bababa; }
 
@@ -32,8 +33,9 @@ section { margin: 0 auto 0 auto; width: 880px; }
 /* header ================================================== */
 header { border-top: 14px solid #606060; padding-top: 37px; }
 header section div { float: left; margin: 0 0 36px 60px; width: 377px; }
-header section div h1 { font-size: 3.9em; font-weight: bold; }
-header section div h2 { font-size: 1.5em; }
+header section div a { text-decoration: none; }
+header section div h1 a { font-size: 3.9em; font-weight: bold; }
+header section div h2 a { font-size: 1.5em; }
 
 /* navigation ============================================== */
 header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
@@ -48,7 +50,7 @@ article section h3.image span { background: url('/img/Oliver-Kinne.png'); }
 article section nav { float: left; padding: 46px 0 0 37px; }
 article section .divider { width: 20px; color: #eae5e5; }
 article section nav a { display: inline-block; width: 131px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 59px; }
-article section nav a:hover { border: none; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
 article section nav a.skills { background-color: #3fe534; }
 article section nav a.skills:hover { background-color: #3d8738; }
 article section nav a.resume { background-color: #ff0; }
@@ -62,6 +64,7 @@ article section aside p { font-size: 1.2em; line-height: 1.5em; margin-bottom: 1
 
 /* footer =================================================== */
 footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
+footer section div { margin-left: 50px; }
 footer section p { font-size: 1.2em; float: left; width: 207px; padding-right: 47px; }
 footer section p, footer section p a { color: #fff; }
 
@@ -70,7 +73,11 @@ footer section p .button.tel span { background: url('/img/phone.png'); }
 footer section p .button.email span { background: url('/img/email.png'); }
 footer section p .button.social span { background: url('/img/social.png'); }
 
+footer section p.social { width: 177px; }
 footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 6px 0 0; }
 footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
 footer section .github span { background: url('/img/github.png'); }
 footer section .linkedin span { background: url('/img/linkedin.png'); }
+
+footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
+footer section p.ipv6 a:hover img { opacity: 0.6; filter: alpha(opacity=60); }
