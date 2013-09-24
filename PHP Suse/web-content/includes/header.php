@@ -45,8 +45,8 @@ if ($server != 'direct.oliverkinne.com' && $server != 'www.oliverkinne.com') {
 	<header>
 		<section>
 			<div>
-				<h1>Oliver Kinne</h1>
-				<h2>Web Developer / Software Engineer</h2>
+				<h1><a href="/">Oliver Kinne</a></h1>
+				<h2><a href="/">Web Developer / Software Engineer</a></h2>
 			</div>
 
 			<nav>
