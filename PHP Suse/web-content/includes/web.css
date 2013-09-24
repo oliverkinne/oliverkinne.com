@@ -1,0 +1,76 @@
+/* reset =================================================== */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
+a, p, h1, h2, h3, h4, input, select, th, td { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
+ol, ul { list-style: none; margin: 0; }
+ul li { margin: 0; padding: 0; }	
+a, img { outline: none; border: none; }
+img { display: block; }
+article, aside, details, footer, header, nav, section { display: block; }
+
+/* global styles ========================================================= */
+nav a, footer section a { text-decoration: none; }
+nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
+a.tel:hover, p.social a:hover { border: none; color: #fff; }
+nav a, span.selected { text-transform: uppercase; }
+span.selected { color: #bababa; }
+
+.divider { display: inline-block; overflow: hidden; }
+
+.clear { clear: both; width: 0; height: 0; overflow: hidden; }
+
+/* non displaying text =================================================== */
+article section h3.image, footer section p .button, footer section p.social a, .divider, .clear { font-size: 0; line-height: 0; text-indent: -10000px; }
+article section h3.image, article section nav a, footer section p .button, footer section p.social a { position: relative; }
+article section h3.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* center site ============================================= */
+header, article, footer { width: 100%; clear: both; }
+section { margin: 0 auto 0 auto; width: 880px; }
+
+/* header ================================================== */
+header { border-top: 14px solid #606060; padding-top: 37px; }
+header section div { float: left; margin: 0 0 36px 60px; width: 377px; }
+header section div h1 { font-size: 3.9em; font-weight: bold; }
+header section div h2 { font-size: 1.5em; }
+
+/* navigation ============================================== */
+header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
+header section nav .divider { width: 40px; color: white; }
+
+/* body ===================================================== */
+article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
+article section h3 { font-size: 2.5em; font-weight: bold; padding-left: 54px; }
+article section h3.image { float: left; width: 400px; height: 400px; padding-left: 0; }
+article section h3.image span { background: url('/img/Oliver-Kinne.png'); }
+
+article section nav { float: left; padding: 46px 0 0 37px; }
+article section .divider { width: 20px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 131px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 59px; }
+article section nav a:hover { border: none; }
+article section nav a.skills { background-color: #3fe534; }
+article section nav a.skills:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #ff0; }
+article section nav a.resume:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #73a6fb; }
+article section nav a.projects:hover { background-color: #3a5a8e; }
+article section nav a span { background: url('/img/circle.png'); }
+
+article section aside { float: left; padding: 41px 0 0 54px; width: 400px; }
+article section aside p { font-size: 1.2em; line-height: 1.5em; margin-bottom: 14px; }
+
+/* footer =================================================== */
+footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
+footer section p { font-size: 1.2em; float: left; width: 207px; padding-right: 47px; }
+footer section p, footer section p a { color: #fff; }
+
+footer section p .button { display: block; float: left; width: 45px; height: 45px; margin: -8px 18px 0 0; }
+footer section p .button.tel span { background: url('/img/phone.png'); }
+footer section p .button.email span { background: url('/img/email.png'); }
+footer section p .button.social span { background: url('/img/social.png'); }
+
+footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 6px 0 0; }
+footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
+footer section .github span { background: url('/img/github.png'); }
+footer section .linkedin span { background: url('/img/linkedin.png'); }
