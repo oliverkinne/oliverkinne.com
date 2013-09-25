@@ -45,11 +45,19 @@ header section nav .divider { width: 40px; color: white; }
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 article section h3 { font-size: 2.5em; font-weight: bold; padding-left: 54px; }
 article section h3.image { float: left; width: 400px; height: 400px; padding-left: 0; }
-article section h3.image span { background: url('/img/Oliver-Kinne.png'); }
+article section h3.image span {
+	background: url('/img/Oliver-Kinne.jpg');
+	background-size: cover;
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
 
-article section nav { float: left; padding: 46px 0 0 37px; }
+article section nav { float: left; padding: 46px 0 0 33px; }
 article section .divider { width: 20px; color: #eae5e5; }
-article section nav a { display: inline-block; width: 131px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 59px; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; }
 article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
 article section nav a.skills { background-color: #3fe534; }
 article section nav a.skills:hover { background-color: #3d8738; }
@@ -57,7 +65,14 @@ article section nav a.resume { background-color: #ff0; }
 article section nav a.resume:hover { background-color: #a25c28; }
 article section nav a.projects { background-color: #73a6fb; }
 article section nav a.projects:hover { background-color: #3a5a8e; }
-article section nav a span { background: url('/img/circle.png'); }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span {
+	<!--[if lt IE 9]>
+	/* use scaled background image for rounded corners in IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
+	<![endif]-->
+}
 
 article section aside { float: left; padding: 41px 0 0 54px; width: 400px; }
 article section aside p { font-size: 1.2em; line-height: 1.5em; margin-bottom: 14px; }
@@ -81,3 +96,51 @@ footer section .linkedin span { background: url('/img/linkedin.png'); }
 
 footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
 footer section p.ipv6 a:hover img { opacity: 0.6; filter: alpha(opacity=60); }
+
+/* media queries =================================================== */
+@media only screen and (max-width: 905px) {
+	section { width: 450px; }
+
+	/* header ================================================== */
+	header section div { margin: 0; }
+
+	/* navigation ============================================== */
+	header section nav { padding: 32px 0 27px 0; }
+
+	/* body ===================================================== */
+	article section h3 { padding-left: 0; }
+	article section h3.image { width: 112px; height: 112px; }
+
+	article section nav { padding: 0 0 0 25px; }
+	article section .divider { width: 7px; }
+	article section nav a { font-size: 1.1em; width: 55px; height: 62px; padding: 31px 20px 0 18px; }
+
+	article section aside { padding-left: 12px; float: none; clear: left; }
+
+	/* footer =================================================== */
+	footer section div { margin-left: 0; }
+	footer section p { height: 62px; }
+	footer section p.tel, footer section p.social { width: 215px; padding-right: 22px; }
+	footer section p.email { width: 207px; padding-right: 0; }
+}
+
+@media only screen and (max-width: 520px) {
+	section { width: 300px; }
+
+	/* navigation ============================================== */
+	header section nav { width: 300px; font-size: 1.1em; }
+	header section nav .divider { width: 11px; }
+
+	/* body ===================================================== */
+	article section h3.image { width: 72px; height: 72px; }
+
+	article section nav { padding-left: 17px; }
+	article section .divider { width: 5px; }
+	article section nav a { font-size: 0.9em; width: 53px; height: 46px; padding: 17px 6px 0 4px; }
+
+	article section aside { padding-top: 18px; width: 280px; }
+
+	/* footer =================================================== */
+	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
+	footer section p.ipv6 { width: 50px; }
+}
