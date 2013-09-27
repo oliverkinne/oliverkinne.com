@@ -2,18 +2,21 @@
 * { margin: 0; padding: 0; }
 html { overflow-y: scroll; }
 body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
-a, p, h1, h2, h3, h4, input, select, th, td { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
-ol, ul { list-style: none; margin: 0; }
-ul li { margin: 0; padding: 0; }	
+a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
+ol, ul { margin: 0; padding: 0; }
+ol { list-style: decimal; }
+ul { list-style: square; }
+oli li, ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
 a, img { outline: none; border: none; }
 img { display: inline-block; }
 article, aside, details, footer, header, nav, section { display: block; }
 
 /* global styles ========================================================= */
-nav a, footer section a { text-decoration: none; }
+nav a, footer section a, a.tel { text-decoration: none; }
 a:hover { text-decoration: none; }
 nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
-a.tel:hover, p.social a:hover { border: none; color: #fff; }
+a.tel:hover, p.social a:hover { border: none; }
+footer a.tel:hover, p.social a:hover { color: #fff; }
 a.tel:hover { cursor: text; }
 a:hover img { opacity: 0.6; filter: alpha(opacity=60); }
 nav a, span.selected { text-transform: uppercase; }
@@ -48,8 +51,8 @@ header section nav .divider { width: 40px; color: white; }
 /* body ===================================================== */
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
-article section h3 { font-size: 2.5em; font-weight: bold; padding-left: 54px; }
-article section h3.image { float: left; width: 400px; height: 400px; padding-left: 0; }
+article section h3 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
+article section h3.image { float: left; width: 400px; height: 400px; padding: 0; }
 article section h3.image span {
 	background: url('/img/Oliver-Kinne.jpg');
 	background-size: cover;
@@ -60,7 +63,11 @@ article section h3.image span {
 	<![endif]-->
 }
 
-article section h4 { font-size: 1.5em; font-weight: bold; margin: 22px 0 12px 0; }
+article section h4 { font-size: 1.5em; }
+article section h4, article section h5, article section h6 { font-weight: bold; }
+article section h5, article section h6 { font-size: 1.2em; }
+article section h4, article section h5 { margin: 22px 0 12px 0; }
+article section h6 { color: #808080; margin: 16px 0 12px 0; }
 
 article section nav { float: left; padding: 46px 0 0 33px; }
 article section .divider { width: 20px; color: #eae5e5; }
@@ -81,9 +88,12 @@ article section nav a span {
 	<![endif]-->
 }
 
-article section aside { float: left; padding: 41px 0 0 66px; width: 400px; }
+article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
+article section aside.home { clear: none; padding-top: 54px; }
 article section aside.wide { width: 800px; }
-article section aside p { font-size: 1.2em; line-height: 1.5em; margin-bottom: 14px; }
+article section aside.side { clear: none; width: 334px; }
+article section aside p { margin-bottom: 14px; }
+article section aside p, article section aside li { font-size: 1.2em; line-height: 1.5em; }
 article section aside p.dates { margin-bottom: 0px; color: #808080; }
 article section aside p.dates, article section aside p.team { font-size: 1.1em; }
 
@@ -120,13 +130,14 @@ footer section p.ipv6 a:hover { border: none; }
 	/* body ===================================================== */
 	article section h3 { padding-left: 0; }
 	article section h3.image { width: 112px; height: 112px; }
+	article section h4, article section h5, article section h6 { margin-top: 0; }
 
 	article section nav { padding: 0 0 0 25px; }
 	article section .divider { width: 7px; }
 	article section nav a { font-size: 1.1em; width: 55px; height: 62px; padding: 31px 20px 0 18px; }
 
-	article section aside { padding-left: 12px; float: none; clear: left; }
-	article section aside.wide { width: 400px; }
+	article section aside, article section aside.home { padding: 14px 0 0 12px; float: none; clear: left; }
+	article section aside.wide, article section aside.side { width: 400px; }
 
 	/* footer =================================================== */
 	footer section div { margin-left: 0; }
@@ -150,7 +161,7 @@ footer section p.ipv6 a:hover { border: none; }
 	article section nav a { font-size: 0.9em; width: 51px; height: 45px; padding: 18px 6px 0 6px; }
 
 	article section aside { padding-top: 18px; }
-	article section aside,article section aside.wide { width: 280px; }
+	article section aside, article section aside.wide, article section aside.side { width: 280px; }
 
 	/* footer =================================================== */
 	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
