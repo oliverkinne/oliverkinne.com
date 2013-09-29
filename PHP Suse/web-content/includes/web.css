@@ -54,7 +54,7 @@ article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px 
 article section h3 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
 article section h3.image { float: left; width: 400px; height: 400px; padding: 0; }
 article section h3.image span {
-	background: url('/img/Oliver-Kinne.jpg');
+	background-image: url('/img/Oliver-Kinne.jpg');
 	background-size: cover;
 	<!--[if lt IE 9]>
 	/* background image resize fix for IE8 and before */
