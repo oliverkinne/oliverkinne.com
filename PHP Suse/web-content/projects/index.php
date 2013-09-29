@@ -3,7 +3,7 @@
 		<section>
 			<h3>My Projects</h3>
 
-			<aside class="wide">
+			<aside>
 				<h4>LSi Online Website Rebuild</h4>
 				<p class="dates">June 2012 to April 2013</p>
 				<p class="team">Team Members: <a href="http://www.linkedin.com/in/oliverkinne">Oliver Kinne</a>, <a href="http://uk.linkedin.com/pub/alex-dato/60/267/835/">Alex Dato</a>, <a href="http://uk.linkedin.com/pub/lee-baldock/1/b94/5a0/">Lee Baldock</a></p>
@@ -11,7 +11,22 @@
 				<p>The site also employs SEO techniques, uses metadata for page classification and content tagging (OpenGraph) and is built with visually impaired users in mind as well.</p>
 				<p>Alex Dato was responsible for the design of the site, while Lee Baldock oversaw the project to make sure it met the Media team's requirements, and he tested the site as well. I built the site in ASP (JScript) using Dreamweaver.</p>
 				<p><a href="https://github.com/plasa/LSi_Online_2012"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The site's code is maintained on GitHub for versioning and change tracking.</p>
+			</aside>
 
+			<aside class="side">
+<?php
+$w = stream_get_wrappers();
+//echo 'openssl: ',  extension_loaded  ('openssl') ? 'yes':'no', "\n";
+//echo 'http wrapper: ', in_array('http', $w) ? 'yes':'no', "\n";
+//echo 'https wrapper: ', in_array('https', $w) ? 'yes':'no', "\n";
+//echo 'wrappers: ', var_dump($w);
+
+$events = file_get_contents('https://api.github.com/users/oliverkinne/events');
+?>
+				<pre><?php echo $events ?></pre>
+			</aside>
+
+			<aside>
 				<h4>Online Manuals System</h4>
 				<p class="dates">January 2012 to Present</p>
 				<p class="team">Team Members: <a href="http://www.linkedin.com/in/oliverkinne">Oliver Kinne</a></p>
