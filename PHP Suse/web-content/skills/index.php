@@ -25,6 +25,7 @@
 					<li>CSS</li>
 					<li>PHP</li>
 					<li>ASP</li>
+					<li>CDN</li>
 					<li>VBScript</li>
 					<li>Databases</li>
 					<li>Dreamweaver</li>
@@ -37,6 +38,8 @@
 					<li>Virtualization</li>
 					<li>IIS</li>
 					<li>Network Administration</li>
+					<li>PCI DSS</li>
+					<li>Payment Processing</li>
 					<li>CRM</li>
 					<li>Team Leadership</li>
 					<li>IT Strategy</li>

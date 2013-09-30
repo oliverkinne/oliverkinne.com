@@ -5,7 +5,7 @@
 
 			<aside>
 				<h4>PLASA</h4>
-				<p class="dates">July 1999 – Present (14 years 3 months)</p>
+				<p class="dates">July 1999 – Present (over 14 years)</p>
 				<p class="team">Website Developer</p>
 				<p>In my current role, I manage a member of staff to fulfill all internal design and print production requirements, and two IT support companies to maintain and look after our internal IT infrastructure.</p>
 				<p>I control a budget of over &pound;150,000 and deal with all software, web and other developments. I oversee the IT infrastructure of three offices in two time zones, looking after over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
@@ -17,19 +17,19 @@
 
 			<aside class="side">
 				<h5>Related Skills</h5>
-				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, PHP, ASP, VBScript, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Amazon Web Services, Virtualization, IIS, Network Administration, CRM, Team Leadership, IT Strategy, Operating Systems, Cloud Computing, Project Management, Confluence, System Administration, Active Directory, Microsoft Exchange, Office 365, Firewalls, Microsoft Office, Budgets, Crystal Reports</p>
+				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, PHP, ASP, CDN, VBScript, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Amazon Web Services, Virtualization, IIS, Network Administration, PCI DSS, Payment Processing, CRM, Team Leadership, IT Strategy, Operating Systems, Cloud Computing, Project Management, Confluence, System Administration, Active Directory, Microsoft Exchange, Office 365, Firewalls, Microsoft Office, Budgets, Crystal Reports</p>
 
 				<h5>Recommendations</h5>
 
-				<h6>Alex Dato</h6>
-				<p class="dates">June 17, 2013, Alex reported to Oliver at PLASA</p>
+				<h6><a href="http://uk.linkedin.com/pub/alex-dato/60/267/835/">Alex Dato</a></h6>
+				<p class="dates">17 June 2013, Alex reported to Oliver at PLASA</p>
 				<p class="team">Web Development and Design</p>
 				<p>Oliver is a great manager who is apt at managing a team and complex IT projects.</p>
 				<p>He has designed and built a number of in-house systems which have boosted PLASA's revenue. He developed an online manuals system for use by exhibitors which improved the delivery of services to exhibitors at an international trade show.</p>
 				<p>Oliver has streamlined processes within PLASA and introduced a number of new technologies to the organisation such as Office 365, VPN, web servers and online exhibitor directories. He has excellent programming and problem solving skills.</p>
 
-				<h6>Ruth Rossington</h6>
-				<p class="dates">June 17, 2013, Ruth managed Oliver at PLASA</p>
+				<h6><a href="http://uk.linkedin.com/pub/ruth-rossington/6/686/4b5/">Ruth Rossington</a></h6>
+				<p class="dates">17 June 2013, Ruth managed Oliver at PLASA</p>
 				<p class="team">Journalist, Copywriter and Graphic Designer</p>
 				<p>Oliver is an asset to any company: he is diligent, hard-working, invests time in developing his skills and knowledge and always has the team's best interests at heart. He keeps a balanced eye on things, and importantly, a positive attitude.</p>
 			</aside>
