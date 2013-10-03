@@ -10,6 +10,7 @@
 				<p>The oliverkine.com website was built in PHP, with SEO and pageload performance in mind. CloudFlare CDN was applied to make the site even more efficient and load even more quickly.</p>
 				<p>CSS is used on the homepage to create rollover effects, as well as styling.</p>
 				<p>The site is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services.</p>
+				<p>It is an illustration of the web development skills and experience I have and shows that I can work on a project by myself, if necessary, am self-motivated and can quickly learn new skills on the job.</p>
 			</aside>
 
 			<aside class="side">
@@ -18,15 +19,9 @@
 
 				<h5>Github</h5>
 				<p><a href="https://github.com/oliverkinne/oliverkinne.com"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The site's code is maintained on GitHub for versioning and change tracking.</p>
-<! --
 <?php
-$w = stream_get_wrappers();
-echo 'openssl: ',  extension_loaded  ('openssl') ? 'yes':'no', "\n";
-echo 'http wrapper: ', in_array('http', $w) ? 'yes':'no', "\n";
-echo 'https wrapper: ', in_array('https', $w) ? 'yes':'no', "\n";
-
-$events = file_get_contents('https://api.github.com/users/oliverkinne/events');
-?> -- >
+GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9vbGl2ZXJraW5uZS9vbGl2ZXJraW5uZS5jb20vZXZlbnRz&hl=3ed');
+?>
 			</aside>
 
 			<aside>
@@ -112,3 +107,57 @@ Budgets</p>
 	</article>
 
 <?php include '/srv/www/htdocs/includes/footer.php' ?>
+
+<?php
+
+function GitHubEvents($githubapiurl) {
+	// use HTTP proxy to bypass missing SSL wrapper in AWS EC2
+	// for https://api.github.com/... --
+	// downside is that we're dealing with some potentially
+	// 'dodgy' websites... oh well, it's a workaround for now
+	$events = json_decode(file_get_contents($githubapiurl));
+
+	if (count($events) > 0) {
+?>
+				<div class="scroll">
+					<ul>
+<?php
+		for ($event = 0; $event < count($events); $event++) {
+			// created at date
+			$date = date('d/m/Y H:i:s', strtotime($events[$event]->created_at));
+
+			switch ($events[$event]->type) {
+				// push event
+				case "PushEvent":
+					$commits = $events[$event]->payload->commits;
+					for ($commit = 0; $commit < count($commits); $commit++) {
+						$description = strShorten($commits[$commit]->message, 50);
+?>
+						<li><a href="<?php echo str_replace('/commits/', '/commit/', str_replace('api.github.com/repos/', 'github.com/', $commits[$commit]->url))?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					}
+					break;
+
+				// issues event
+				case "IssuesEvent":
+						$description = strShorten($events[$event]->payload->issue->title, 50);
+?>
+						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					break;
+			}
+		}
+?>
+					</ul>
+				</div>
+<?php
+	}
+}
+
+function strShorten($description, $length) {
+	if (strlen($description) > $length)
+		$description = preg_replace('/ [^ ]*$/', ' ', substr($description, 0, $length)) . '...';
+
+	return $description;
+}
+?>

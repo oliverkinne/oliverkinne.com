@@ -100,6 +100,8 @@ article section aside p, article section aside li { font-size: 1.2em; line-heigh
 article section aside p.dates { margin-bottom: 0px; color: #808080; }
 article section aside p.dates, article section aside p.team { font-size: 1.1em; }
 
+article section aside div.scroll { height: 150px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
+
 /* footer =================================================== */
 footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
 footer section div { margin-left: 50px; }
