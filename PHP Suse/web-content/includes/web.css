@@ -12,8 +12,8 @@ img { display: inline-block; }
 article, aside, details, footer, header, nav, section { display: block; }
 
 /* global styles ========================================================= */
-nav a, footer section a, a.tel { text-decoration: none; }
-a:hover { text-decoration: none; }
+a:hover, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: underline; }
 nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
 a.tel:hover, p.social a:hover { border: none; }
 footer a.tel:hover, p.social a:hover { color: #fff; }
@@ -64,13 +64,14 @@ article section h3.image span {
 }
 
 article section h4 { font-size: 1.5em; }
-article section h4, article section h5, article section h6, article section h6 a { font-weight: bold; }
+article section h4, article section h4 a, article section h5, article section h5 a, article section h6, article section h6 a { font-weight: bold; }
 article section h5, article section h6 { font-size: 1.2em; }
 article section h4, article section h5 { margin: 22px 0 12px 0; }
 article section h6 { margin: 16px 0 12px 0; }
 article section h6, article section h6 a { color: #808080; }
-article section h6 a { text-decoration: none; }
-article section h6 a:hover { text-decoration: underline; }
+
+article section a.github span { background: url('/img/githubb.png') top no-repeat; width: 16px; height: 16px; display: inline-block; margin-right: 7px; position: relative; top: 3px; }
+article section a.github:hover span { background-position: 0 -16px; }
 
 article section nav { float: left; padding: 46px 0 0 33px; }
 article section .divider { width: 20px; color: #eae5e5; }

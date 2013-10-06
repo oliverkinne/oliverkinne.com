@@ -8,7 +8,8 @@
 				<p class="dates">September 2013 - Present</p>
 				<p class="team"></p>
 				<p>The oliverkine.com website was built in PHP, with SEO and pageload performance in mind. CloudFlare CDN was applied to make the site even more efficient and load even more quickly.</p>
-				<p>CSS is used on the homepage to create rollover effects, as well as styling.</p>
+				<p>CSS is used on the homepage to create rollover effects, as well as for styling.</p>
+				<p>The opening of external links in a new window/tab is achieved via JQuery.</p>
 				<p>The site is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services.</p>
 				<p>It is an illustration of the web development skills and experience I have and shows that I can work on a project by myself, if necessary, am self-motivated and can quickly learn new skills on the job.</p>
 			</aside>
@@ -17,8 +18,8 @@
 				<h5>Related Skills</h5>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
-				<h5>Github</h5>
-				<p><a href="https://github.com/oliverkinne/oliverkinne.com"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The site's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5><a href="https://github.com/oliverkinne/oliverkinne.com" class="github"><span></span>Github</a></h5>
+				<p>The site's code is maintained on GitHub for versioning and change tracking.</p>
 <?php
 GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9vbGl2ZXJraW5uZS9vbGl2ZXJraW5uZS5jb20vZXZlbnRz&hl=3ed');
 ?>
@@ -37,8 +38,8 @@ GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
-				<h5>Github</h5>
-				<p><a href="https://github.com/plasa/LSi_Online_2012"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The site's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5><a href="https://github.com/plasa/LSi_Online_2012" class="github"><span></span>Github</a></h5>
+				<p>The site's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -56,8 +57,8 @@ GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9
 				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Github, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
-				<h5>Github</h5>
-				<p><a href="https://github.com/plasa/PLASA_Manuals"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The system's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5><a href="https://github.com/plasa/PLASA_Manuals" class="github"><span></span>Github</a></h5>
+				<p>The system's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -71,8 +72,8 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
 
-				<h5>Github</h5>
-				<p><a href="https://github.com/plasa/PLASA_Lib"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The library's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5><a href="https://github.com/plasa/PLASA_Lib" class="github"><span></span>Github</a></h5>
+				<p>The library's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -86,8 +87,8 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, Github, PCI DSS, Payment Processing</p>
 
-				<h5>Github</h5>
-				<p><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp"><img class="middle" src="/img/githubi.png" alt="GitHub"></a> The module's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp" class="github"><span></span>Github</a></h5>
+				<p>The module's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
