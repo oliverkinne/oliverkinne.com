@@ -28,6 +28,25 @@ if ($server != 'direct.oliverkinne.com' && $server != 'www.oliverkinne.com') {
 	<link rel="shortcut icon" href="/favicon.ico" />
 
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" />
+<?php
+switch ($path) {
+	case "/resume/":
+?>	
+	<style>
+article section h5 { background-position: 0 -16px; }
+	</style>
+<?php
+		break;
+
+	case "/skills/":
+?>	
+	<style>
+article section h5 { background-position: 0 -32px; }
+	</style>
+<?php
+		break;
+}
+?>
 
 	<script type="text/javascript" src="/includes/web.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="/includes/ie8.js"></script><![endif]-->

@@ -18,8 +18,7 @@
 				<h5>Related Skills</h5>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
-				<h5><a href="https://github.com/oliverkinne/oliverkinne.com" class="github"><span></span>Github</a></h5>
-				<p>The site's code is maintained on GitHub for versioning and change tracking.</p>
+				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
 <?php
 GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9vbGl2ZXJraW5uZS9vbGl2ZXJraW5uZS5jb20vZXZlbnRz&hl=3ed');
 ?>
@@ -38,7 +37,7 @@ GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
-				<h5><a href="https://github.com/plasa/LSi_Online_2012" class="github"><span></span>Github</a></h5>
+				<h5 class="github"><a href="https://github.com/plasa/LSi_Online_2012">Github</a></h5>
 				<p>The site's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
@@ -57,7 +56,7 @@ GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9
 				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Github, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
-				<h5><a href="https://github.com/plasa/PLASA_Manuals" class="github"><span></span>Github</a></h5>
+				<h5 class="github"><a href="https://github.com/plasa/PLASA_Manuals">Github</a></h5>
 				<p>The system's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
@@ -72,7 +71,7 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
 
-				<h5><a href="https://github.com/plasa/PLASA_Lib" class="github"><span></span>Github</a></h5>
+				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib">Github</a></h5>
 				<p>The library's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
@@ -87,7 +86,7 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, Github, PCI DSS, Payment Processing</p>
 
-				<h5><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp" class="github"><span></span>Github</a></h5>
+				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">Github</a></h5>
 				<p>The module's code is maintained on GitHub for versioning and change tracking.</p>
 			</aside>
 
