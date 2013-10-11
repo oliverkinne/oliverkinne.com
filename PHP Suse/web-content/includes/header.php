@@ -30,18 +30,28 @@ if ($server != 'direct.oliverkinne.com' && $server != 'www.oliverkinne.com') {
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" />
 <?php
 switch ($path) {
-	case "/resume/":
-?>	
-	<style>
-article section h5 { background-position: 0 -16px; }
-	</style>
-<?php
-		break;
-
 	case "/skills/":
 ?>	
 	<style>
 article section h5 { background-position: 0 -32px; }
+ul li:before { color: #3fe534; }
+	</style>
+<?php
+		break;
+
+	case "/resume/":
+?>	
+	<style>
+article section h5 { background-position: 0 -16px; }
+ul li:before { color: #ff0; }
+	</style>
+<?php
+		break;
+
+	case "/projects/":
+?>	
+	<style>
+ul li:before { color: #73a6fb; }
 	</style>
 <?php
 		break;

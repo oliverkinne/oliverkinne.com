@@ -21,4 +21,33 @@
 		</section>
 	</article>
 
+	<script>
+var delay = 10000;
+var fade = 3000;
+
+$(document).ready(function() {
+	$('article section h3.image span').after('<span id="span1"></span><span id="span2"></span><span id="span3"></span>');
+	span();
+});
+
+function span() {
+	$('article section h3.image span:first').delay(delay).fadeOut(fade, span1);
+	$('#span1').delay(delay).fadeIn(fade);
+}
+
+function span1() {
+	$('#span1').delay(delay).fadeOut(fade, span2);
+	$('#span2').delay(delay).fadeIn(fade);
+}
+
+function span2() {
+	$('#span2').delay(delay).fadeOut(fade, span3);
+	$('#span3').delay(delay).fadeIn(fade);
+}
+
+function span3() {
+	$('#span3').delay(delay).fadeOut(fade, span);
+	$('article section h3.image span:first').delay(delay).fadeIn(fade);
+}
+	</script>
 <?php include '/srv/www/htdocs/includes/footer.php' ?>

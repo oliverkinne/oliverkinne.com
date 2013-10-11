@@ -5,8 +5,10 @@ body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
 a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
 ol, ul { margin: 0; padding: 0; }
 ol { list-style: decimal; }
-ul { list-style: square; }
-oli li, ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
+ul { list-style: none; }
+ol li, ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
+ul li { padding-left: 11px; text-indent: -11px; }
+ul li:before { content: "• "; color: #606060; font-size: 1.3em; display: inline-block; width: 10px; }
 a, img { outline: none; border: none; }
 img { display: inline-block; }
 article, aside, details, footer, header, nav, section { display: block; }
@@ -52,14 +54,47 @@ header section nav .divider { width: 40px; color: white; }
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
 article section h3 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
-article section h3.image { float: left; width: 400px; height: 400px; padding: 0; }
+article section h3.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
 article section h3.image span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	background-image: url('/img/Oliver-Kinne.jpg');
 	background-size: cover;
 	<!--[if lt IE 9]>
 	/* background image resize fix for IE8 and before */
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span1 {
+	z-index: 10;
+	display: none;
+	background-image: url('/img/Oliver-Kinne1.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span2 {
+	z-index: 11;
+	display: none;
+	background-image: url('/img/Oliver-Kinne2.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span3 {
+	z-index: 12;
+	display: none;
+	background-image: url('/img/Oliver-Kinne3.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
 	<![endif]-->
 }
 
