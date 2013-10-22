@@ -4,6 +4,31 @@
 			<h3>My Projects</h3>
 
 			<aside>
+				<h4>Clans of Macaria</h4>
+				<p class="dates">October 2013 - Present</p>
+				<p class="team"></p>
+				<p>Clans is an original on-line, turn-based game for multiple players. The game system uses elements and concepts from many popular board games, but as a whole is completely original.</p>
+				<p>It was developed in PHP, and other than JQuery, CSS and HTML, this project uses MySQL to store the game states and related data.</p>
+				<p>It is an illustration of all of my skills and experience and shows that I am self-motivated and can learn new skills quickly and independantly.</p>
+				<p>Like 'My Resume Website', 'Clans' is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it also uses a number of different techniques for fast loading and performance - it also uses CDN and is search engine optimized.</p>
+			</aside>
+
+			<aside class="side">
+				<h5>Related Skills</h5>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
+
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="http://www.oliverkinne.com/clans-of-macaria/">http://www.oliverkinne.com/clans-of-macaria/</a></li>
+				</ul>
+
+				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
+<?php
+GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/clans-of-macaria/events');
+?>
+			</aside>
+
+			<aside>
 				<h4>My Resume Website</h4>
 				<p class="dates">September 2013 - Present</p>
 				<p class="team"></p>
@@ -11,12 +36,17 @@
 				<p>CSS is used on the homepage to create rollover effects, as well as for styling.</p>
 				<p>The opening of external links in a new window/tab is achieved via JQuery.</p>
 				<p>The site is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services.</p>
-				<p>It is an illustration of the web development skills and experience I have and shows that I can work on a project by myself, if necessary, am self-motivated and can quickly learn new skills on the job.</p>
+				<p>It is an illustration of the web development skills and experience I have and shows that I can work on a project independantly, am self-motivated and can quickly learn new skills on the job.</p>
 			</aside>
 
 			<aside class="side">
 				<h5>Related Skills</h5>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
+
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="http://www.oliverkinne.com/">http://www.oliverkinne.com/</a></li>
+				</ul>
 
 				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
 <?php
@@ -37,8 +67,13 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="http://www.lsionline.co.uk/">http://www.lsionline.co.uk/</a></li>
+				</ul>
+
 				<h5 class="github"><a href="https://github.com/plasa/LSi_Online_2012">Github</a></h5>
-				<p>The site's code is maintained on GitHub for versioning and change tracking.</p>
+				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -56,8 +91,13 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Github, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="https://www.plasamanuals.com/plasa2013/">https://www.plasamanuals.com/plasa2013/</a></li>
+				</ul>
+
 				<h5 class="github"><a href="https://github.com/plasa/PLASA_Manuals">Github</a></h5>
-				<p>The system's code is maintained on GitHub for versioning and change tracking.</p>
+				<p>The system's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -72,7 +112,7 @@ Budgets</p>
 				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
 
 				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib">Github</a></h5>
-				<p>The library's code is maintained on GitHub for versioning and change tracking.</p>
+				<p>The library's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
@@ -87,7 +127,7 @@ Budgets</p>
 				<p>JScript, Github, PCI DSS, Payment Processing</p>
 
 				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">Github</a></h5>
-				<p>The module's code is maintained on GitHub for versioning and change tracking.</p>
+				<p>The module's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
