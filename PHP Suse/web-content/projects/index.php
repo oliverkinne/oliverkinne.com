@@ -20,7 +20,7 @@
 
 				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
 <?php
-GitHubEvents('http://hidemetoday.com/index.php?q=aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9vbGl2ZXJraW5uZS9vbGl2ZXJraW5uZS5jb20vZXZlbnRz&hl=3ed');
+GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/oliverkinne.com/events');
 ?>
 			</aside>
 
@@ -127,6 +127,22 @@ function GitHubEvents($githubapiurl) {
 			$date = date('d/m/Y H:i:s', strtotime($events[$event]->created_at));
 
 			switch ($events[$event]->type) {
+				// create event
+				case "CreateEvent":
+						$description = strShorten('Created ' . $events[$event]->payload->ref_type . ' \'' . ($events[$event]->payload->ref == null ? $events[$event]->payload->master_branch : $events[$event]->payload->ref) . '\'', 50);
+?>
+						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					break;
+
+				// delete event
+				case "DeleteEvent":
+						$description = strShorten('Deleted ' . $events[$event]->payload->ref_type . ' \'' . ($events[$event]->payload->ref == null ? $events[$event]->payload->master_branch : $events[$event]->payload->ref) . '\'', 50);
+?>
+						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					break;
+
 				// push event
 				case "PushEvent":
 					$commits = $events[$event]->payload->commits;
@@ -140,7 +156,23 @@ function GitHubEvents($githubapiurl) {
 
 				// issues event
 				case "IssuesEvent":
-						$description = strShorten($events[$event]->payload->issue->title, 50);
+						$description = strShorten(ucfirst($events[$event]->payload->action) . ' issue \'' . $events[$event]->payload->issue->title . '\'', 50);
+?>
+						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					break;
+
+				// issue comment event
+				case "IssueCommentEvent":
+						$description = strShorten('Commented on issue \'' . $events[$event]->payload->issue->title . '\'', 50);
+?>
+						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
+<?php
+					break;
+
+				// Gollum event
+				case "GollumEvent":
+						$description = strShorten(ucfirst($events[$event]->payload->pages[0]->action) . ' Wiki page \'' . $events[$event]->payload->pages[0]->title . '\'', 50);
 ?>
 						<li><a href="<?php echo $events[$event]->payload->issue->html_url?>"><?php echo htmlentities($description)?></a> (<?php echo $date?>)</li>
 <?php
