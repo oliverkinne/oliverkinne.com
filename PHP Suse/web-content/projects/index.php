@@ -8,18 +8,19 @@
 				<p class="dates">October 2013 - Present</p>
 				<p class="team"></p>
 				<p>Clans is an original on-line, turn-based game for multiple players. The game system uses elements and concepts from many popular board games, but as a whole is completely original.</p>
-				<p>It was developed in PHP, and other than JQuery, CSS and HTML, this project uses MySQL to store the game states and related data.</p>
-				<p>It is an illustration of all of my skills and experience and shows that I am self-motivated and can learn new skills quickly and independantly.</p>
-				<p>Like 'My Resume Website', 'Clans' is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it also uses a number of different techniques for fast loading and performance - it also uses CDN and is search engine optimized.</p>
+				<p>It is still in development.</p>
+				<p>It is programmed in PHP and with a MySQL database to store the game states and related data. The site uses JQuery, CSS and HTML.</p>
+				<p>It is an illustration of my development knowledge and experience and shows that I am self-motivated and can learn new skills quickly and independantly.</p>
+				<p>Like 'My Resume Website', 'Clans' is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
 			</aside>
 
 			<aside class="side">
 				<h5>Related Skills</h5>
-				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
 				<h5>Related Links</h5>
 				<ul>
-					<li><a href="http://www.oliverkinne.com/clans-of-macaria/">http://www.oliverkinne.com/clans-of-macaria/</a></li>
+					<li><a href="http://www.clansofmacaria.com/">http://www.clansofmacaria.com/</a></li>
 				</ul>
 
 				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
@@ -41,7 +42,7 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 
 			<aside class="side">
 				<h5>Related Skills</h5>
-				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
 				<h5>Related Links</h5>
 				<ul>
