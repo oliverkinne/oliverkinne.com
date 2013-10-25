@@ -1,11 +1,11 @@
-<?php include '/srv/www/htdocs/includes/header.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 	<article>
 		<section>
 			<h3>My Resume</h3>
 
 			<aside>
 				<h4>PLASA</h4>
-				<p class="dates">July 1999 – Present (over 14 years)</p>
+				<p class="dates">July 1999 -  Present (over 14 years)</p>
 				<p class="team">Website Developer</p>
 				<p>In my current role, I manage a member of staff to fulfill all internal design and print production requirements, and two IT support companies to maintain and look after our internal IT infrastructure.</p>
 				<p>I control a budget of over &pound;150,000 and deal with all software, web and other developments. I oversee the IT infrastructure of three offices in two time zones, looking after over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
@@ -36,7 +36,7 @@
 
 			<aside>
 				<h4>McNaught-Davis and Kinne</h4>
-				<p class="dates">June 1998 – March 2000 (1 year 10 months)</p>
+				<p class="dates">June 1998 -  March 2000 (1 year 10 months)</p>
 				<p class="team">Partner</p>
 				<p>Mr. McNaught-Davis and I established a website design consultancy, alongside our full time employment.</p>
 				<p>We had regular customer contact and designed and implemented a number of websites to help the client achieve their goals and create new business opportunities.</p>
@@ -49,7 +49,7 @@
 
 			<aside>
 				<h4>Sirius Analytical Systems Ltd</h4>
-				<p class="dates">December 1998 – July 1999 (8 months)</p>
+				<p class="dates">December 1998 -  July 1999 (8 months)</p>
 				<p class="team">Software Engineer</p>
 				<p>I project managed the conversion of a bespoke data analysis software system from VC++ 5 to version 6, and extending it with new functionality. The project increased the efficiency of the company's products and in turn allowed the company's clients to realize revenue more quickly.</p>
 				<p>I worked in a team of three software engineers and communicated with a number of experts in chemistry to integrate their ideas into the system.</p>
@@ -62,7 +62,7 @@
 
 			<aside>
 				<h4>Monarch Software Systems Ltd</h4>
-				<p class="dates">August 1997 – October 1998 (1 year 3 months)</p>
+				<p class="dates">August 1997 -  October 1998 (1 year 3 months)</p>
 				<p class="team">Software Engineer</p>
 				<p>I maintained and developed of many parts of a warehouse system, which taught me to identify problems quickly and fix them efficiently and effectively.</p>
 				<p>I regularly liaised with members of staff to discuss requirements for new developments and system improvements.</p>
@@ -76,7 +76,7 @@
 
 			<aside>
 				<h4>Robert Bosch Ltd.</h4>
-				<p class="dates">March 1996 – August 1996 (6 months)</p>
+				<p class="dates">March 1996 -  August 1996 (6 months)</p>
 				<p class="team">IT Assistant</p>
 				<p>I assisted in the decision making process for acquiring new hardware and software.</p>
 				<p>I also developed small software tools, in the form of scripts in Lotus 1-2-3 and was also involved in developing the Bosch intranet pages.</p>
@@ -90,7 +90,7 @@
 
 			<aside>
 				<h4>Samuelson EDV-Beratung</h4>
-				<p class="dates">April 1993 – October 1993 (7 months)</p>
+				<p class="dates">April 1993 -  October 1993 (7 months)</p>
 				<p class="team">Programmer</p>
 				<p>I developed and maintained various bespoke database systems, built in dBase and MS Access.</p>
 				<p>I used programmed in Pascal, Clipper and MS Visual Basic and was fully responsible for the design, implementation and testing of every project. I had frequent and close customer contact and traveled through Germany to visit customers on-site.</p>
@@ -104,4 +104,4 @@
 			<div class="clear">&nbsp;</div>
 		</section>
 	</article>
-<?php include '/srv/www/htdocs/includes/footer.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php' ?>

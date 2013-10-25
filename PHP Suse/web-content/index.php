@@ -1,4 +1,4 @@
-<?php include '/srv/www/htdocs/includes/header.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 
 	<article>
 		<section>
@@ -50,4 +50,4 @@ function span3() {
 	$('article section h3.image span:first').delay(delay).fadeIn(fade);
 }
 	</script>
-<?php include '/srv/www/htdocs/includes/footer.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php' ?>

@@ -1,4 +1,4 @@
-<?php include '/srv/www/htdocs/includes/header.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 
 	<article>
 		<section>
@@ -14,4 +14,4 @@
 		</section>
 	</article>
 
-<?php include '/srv/www/htdocs/includes/footer.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php' ?>
