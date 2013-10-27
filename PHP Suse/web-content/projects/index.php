@@ -20,10 +20,12 @@
 
 				<h5>Related Links</h5>
 				<ul>
-					<li><a href="http://www.clansofmacaria.com/">http://www.clansofmacaria.com/</a></li>
+					<li><a href="http://www.clansofmacaria.com/">Website</a></li>
+					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria">GitHub Repository</a></li>
+					<li><a href="https://www.lucidchart.com/documents/view/4c57-7950-526901de-a0e4-4cfc0a009e12">Entity Relationship Diagramme</a></li>
 				</ul>
 
-				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
+				<h5 class="github">Github Updates</h5>
 <?php
 GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/clans-of-macaria/events');
 ?>
@@ -46,10 +48,11 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 
 				<h5>Related Links</h5>
 				<ul>
-					<li><a href="http://www.oliverkinne.com/">http://www.oliverkinne.com/</a></li>
+					<li><a href="http://www.oliverkinne.com/">Website</a></li>
+					<li><a href="https://github.com/oliverkinne/oliverkinne.com">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github"><a href="https://github.com/oliverkinne/oliverkinne.com">Github</a></h5>
+				<h5 class="github">Github Updates</h5>
 <?php
 GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/oliverkinne.com/events');
 ?>
@@ -70,10 +73,11 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 
 				<h5>Related Links</h5>
 				<ul>
-					<li><a href="http://www.lsionline.co.uk/">http://www.lsionline.co.uk/</a></li>
+					<li><a href="http://www.lsionline.co.uk/">Website</a></li>
+					<li><a href="https://github.com/plasa/LSi_Online_2012">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github"><a href="https://github.com/plasa/LSi_Online_2012">Github</a></h5>
+				<h5 class="github">Github Updates</h5>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -94,10 +98,11 @@ Budgets</p>
 
 				<h5>Related Links</h5>
 				<ul>
-					<li><a href="https://www.plasamanuals.com/plasa2013/">https://www.plasamanuals.com/plasa2013/</a></li>
+					<li><a href="https://www.plasamanuals.com/plasa2013/">Website</a></li>
+					<li><a href="https://github.com/plasa/PLASA_Manuals">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github"><a href="https://github.com/plasa/PLASA_Manuals">Github</a></h5>
+				<h5 class="github">Github Updates</h5>
 				<p>The system's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -112,7 +117,12 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
 
-				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib">Github</a></h5>
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="https://github.com/plasa/PLASA_Lib">GitHub Repository</a></li>
+				</ul>
+
+				<h5 class="github">Github Updates</h5>
 				<p>The library's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -127,7 +137,12 @@ Budgets</p>
 				<h5>Related Skills</h5>
 				<p>JScript, Github, PCI DSS, Payment Processing</p>
 
-				<h5 class="github"><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">Github</a></h5>
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">GitHub Repository</a></li>
+				</ul>
+
+				<h5 class="github">Github</h5>
 				<p>The module's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
