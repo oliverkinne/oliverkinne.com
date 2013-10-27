@@ -22,7 +22,7 @@
 				<ul>
 					<li><a href="http://www.clansofmacaria.com/">Website</a></li>
 					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria">GitHub Repository</a></li>
-					<li><a href="https://www.lucidchart.com/documents/view/4c57-7950-526901de-a0e4-4cfc0a009e12">Entity Relationship Diagramme</a></li>
+					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria/wiki/Entity-Relationship-Diagramme">Entity Relationship Diagramme</a></li>
 				</ul>
 
 				<h5 class="github">Github Updates</h5>
