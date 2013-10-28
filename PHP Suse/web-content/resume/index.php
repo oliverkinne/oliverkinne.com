@@ -5,17 +5,17 @@
 
 			<aside>
 				<p>Throughout my career I have helped my employers to improve efficiency, increase productivity and develop new business opportunities.</p>
-				<p>As an experienced developer, I expanded my current employer's only and static website, into five dynamic, database-driven, search engine optimized and high performing sites, multiplying the opportunities of revenue for the business.</p>
-				<p>Applying my networking knowledge I streamlined the IT infrastructure of originally one office and one server, and expanded it into three offices in two time zones, supporting around 50 staff, five servers and a virtual web server.</p>
-				<p>I appointed and supervised external providers and implemented cloud based services to increase the efficiency and productivity of the company's teams.</p>
+				<p>I converted static websites into dynamic, database-driven, search engine optimized and high performing sites, multiplying the opportunities of revenue for the business.</p>
+				<p>I have applied my networking experience to streamline the IT infrastructure and scale it from one office and one server to three offices in two time zones, supporting around 50 staff, five servers and a virtual web server.</p>
+				<p>I appointed and supervised external service providers and implemented cloud based services to increase the efficiency and productivity of the company's teams.</p>
 			</aside>
 
 			<aside>
 				<h4>PLASA</h4>
 				<p class="dates">July 1999 -  Present (over 14 years)</p>
 				<p class="team">Website Developer</p>
-				<p>In my current role, I manage a member of staff to fulfill all internal design and print production requirements, and two IT support companies to maintain and look after our internal IT infrastructure.</p>
-				<p>I control a budget of over &pound;150,000 and deal with all software, web and other developments. I oversee the IT infrastructure of three offices in two time zones, looking after over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
+				<p>In my current role, I manage a member of staff to fulfill all internal design, print production and web development requirements. I also manage two IT support companies to maintain and look after our internal IT infrastructure.</p>
+				<p>I control a budget of over &pound;150,000 and deal with all software and web development projects. I oversee the IT infrastructure of three offices in two time zones, supporting over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
 				<p>Over the years I completely overhauled the company's single website and extended it into five sites, creating a new advertising revenue stream of over &pound;20,000 annually.</p>
 				<p>I programmed the sites in JScript (ASP) and PHP, and designed them to be device agnostic and search engine optimized. I implemented load performance improvements, such as lazy image loading and late script loading. I developed a number of different caching techniques to reduce the load on the server and recently implemented CDN on some sites to increase performance even further. I used JQuery for cross-platform compatibility and rapid development, and applied strict CSS and HTML separation for easy site maintenance.</p>
 				<p>I also designed and implemented a number of SQL databases, as well as some internal MS Access databases and other simple systems to allow non-technical staff to update our websites and make staff more efficient and productive.</p>
