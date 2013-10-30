@@ -12,8 +12,8 @@
 
 			<aside class="home">
 				<p>I am a developer at heart and relish exploring new technologies and learn new skills, applying them to business processes to improve efficiency and increase productivity.</p>
-				<p>I am self-motivated and good at translating colleagues' requirements into technological solutions or new business opportunities.</p>
-				<p>I love working in a team of like-minded colleagues, but can also work independently.</p>
+				<p>I love working in a team of like-minded colleagues and am good at translating colleagues' requirements into technological solutions or new business opportunities.</p>
+				<p>I can also work independently, because I am self-motivated and gain great satisfaction from seeing a project come to fruition.</p>
 				<p>I have many years' experience of software and web development, with a thorough understanding of databases, servers, networking and related technologies.</p>
 			</aside>
 
