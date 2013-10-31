@@ -5,9 +5,9 @@
 
 			<aside>
 				<h4>Summary</h4>
-				<p>Management: I manage an internal department and external service providers and control a budget of over £150,000.</p>
-				<p>Software Development: I have many years' experience of software development in a number of programming languages, including OOP. I contribute to a number of public GitHub projects.</p>
-				<p>Web Development: I have hands-on knowledge of HTML, CSS, JQuery, JavaScript, JScript, VBScript and PHP. I have applied device agnostic design and load performance improvements, such as lazy image and late script loading, and implemented a number of SEO techniques. I have developed a several caching techniques to reduce page load time and improve server performance. I have also built a function library to help rapid web development.</p>
+				<p>Management: I manage a small internal team as well as a number of external service providers and control a budget of over £150,000.</p>
+				<p>Software Development: I have many years' experience of software development in a number of programming languages, including OOP. I also contribute to a number of public GitHub projects.</p>
+				<p>Web Development: I have hands-on knowledge of HTML, CSS, JQuery, JavaScript, JScript, VBScript and PHP. I have applied device agnostic design and load performance improvements, such as lazy image and late script loading, and implemented a number of SEO techniques. I have developed several caching techniques to reduce page load time and improve server performance. I have also built a function library to help rapid web development.</p>
 				<p>HTML Emails: I have created HTML emails from scratch, without the use of software tools or HTML email builders. The HTML emails are compatible with all common clients and are designed to increase the effectiveness of the marketing campaign.</p>
 				<p>Cloud Services: I migrated the company's in-house Exchange servers to Microsoft Office 365, implemented Amazon Web Services' S3 to extend in-house storage and set up AWS EC2 to build a LAMP web server. I have also installed, configured and administered Confluence, the popular collaboration system and Wiki.</p>
 				<p>Databases: I have many years' working knowledge of many database platforms, from MS Access to SQL Server and MySQL. I have designed and built a large number of databases from scratch, including defining indexes and keys for high throughput, fast searching, or a balance of both. I also have limited knowledge of NoSQL.</p>
