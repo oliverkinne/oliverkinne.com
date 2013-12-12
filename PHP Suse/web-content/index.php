@@ -6,7 +6,7 @@
 
 			<nav>
 				<a class="skills" href="/skills/"><span></span>My Skills</a><span class="divider"> | </span>
-				<a class="resume" href="/resume/"><span></span>My Resume</a><span class="divider"> | </span>
+				<a class="resume" href="/resume/"><span></span>My Resum&eacute;</a><span class="divider"> | </span>
 				<a class="projects" href="/projects/"><span></span>My Projects</a>
 			</nav>
 

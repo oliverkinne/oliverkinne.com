@@ -102,11 +102,11 @@ else {
 <?php
 if ($path.$page == '/resume/') {
 ?>
-				<span class="selected">Resume</span><?php
+				<span class="selected">Resum&eacute;</span><?php
 }
 else {
 ?>
-				<a href="/resume/">Resume</a><?php
+				<a href="/resume/">Resum&eacute;</a><?php
 }
 ?><span class="divider"> | </span>
 <?php

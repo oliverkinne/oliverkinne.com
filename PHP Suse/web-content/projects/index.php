@@ -10,7 +10,7 @@
 				<p>Clans of Macaria is an on-line, turn-based game for multiple players. The game system uses elements from many popular board games, but as a whole is completely original.</p>
 				<p>It is still in development and is programmed in PHP, using a MySQL database to store the game states and related data. The site uses JQuery, CSS and HTML.</p>
 				<p>It is an illustration of my development knowledge and experience and shows that I am self-motivated and can learn new skills quickly and independantly.</p>
-				<p>Like 'My Resume Website', this website is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
+				<p>Like 'My Resum&eacute; Website', this website is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
 			</aside>
 
 			<aside class="side">
@@ -31,7 +31,7 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 			</aside>
 
 			<aside>
-				<h4>My Resume Website</h4>
+				<h4>My Resum&eacute; Website</h4>
 				<p class="dates"><?php print_date_range('1 September 2013', null) ?></p>
 				<p class="team"></p>
 				<p>The oliverkine.com website was built in PHP, with SEO and pageload performance in mind. CloudFlare CDN was applied to make the site even more efficient and load even more quickly.</p>
