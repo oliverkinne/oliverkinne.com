@@ -18,7 +18,7 @@ if ($server != 'direct.oliverkinne.com' && $server != 'www.oliverkinne.com') {
 	<meta name="keywords" content="Oliver Kinne" />
 	<meta name="description" content="Oliver Kinne - Web Developer / Software Engineer" />
 
-	<title>Oliver Kinne - Web Developer / Software Engineer</title>  
+	<title>Oliver Kinne - Web Development / IT Consultancy</title>  
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -75,7 +75,7 @@ ul li:before { color: #73a6fb; }
 		<section>
 			<div>
 				<h1><a href="/">Oliver Kinne</a></h1>
-				<h2><a href="/">Web Developer / Software Engineer</a></h2>
+				<h2><a href="/">Web Development / IT Consultancy</a></h2>
 			</div>
 
 			<nav>
@@ -90,16 +90,6 @@ else {
 }
 ?><span class="divider"> | </span>
 <?php
-if ($path.$page == '/skills/') {
-?>
-				<span class="selected">Skills</span><?php
-}
-else {
-?>
-				<a href="/skills/">Skills</a><?php
-}
-?><span class="divider"> | </span>
-<?php
 if ($path.$page == '/resume/') {
 ?>
 				<span class="selected">Resum&eacute;</span><?php
@@ -107,6 +97,16 @@ if ($path.$page == '/resume/') {
 else {
 ?>
 				<a href="/resume/">Resum&eacute;</a><?php
+}
+?><span class="divider"> | </span>
+<?php
+if ($path.$page == '/skills/') {
+?>
+				<span class="selected">Skills</span><?php
+}
+else {
+?>
+				<a href="/skills/">Skills</a><?php
 }
 ?><span class="divider"> | </span>
 <?php

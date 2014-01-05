@@ -4,10 +4,10 @@
 			<h3>My Resume</h3>
 
 			<aside>
-				<p>Throughout my career I have helped my employers to improve efficiency, increase productivity and develop new business opportunities.</p>
-				<p>I converted static websites into dynamic, database-driven, search engine optimized and high performing sites, multiplying the opportunities of revenue for the business.</p>
-				<p>I have applied my networking experience to streamline the IT infrastructure and scale it from one office and one server to three offices in two time zones, supporting around 50 staff, five servers and a virtual web server.</p>
-				<p>I appointed and supervised external service providers and implemented cloud based services to increase the efficiency and productivity of the company's teams.</p>
+				<p>I am a developer at heart and relish exploring new technologies and learning new skills, applying them to business processes to improve efficiency, increase productivity and develop new business opportunities.</p>
+				<p>During my career I have created many dynamic, database-driven, search engine optimized and high performing sites that are highly optimized, device agnostic and accessible by people of all abilities and disabilities.</p>
+				<p>I have applied my networking experience to streamline the IT infrastructure and to scale it to be able to handle multiple offices in different time zones, supporting several dozen staff, including home workers, while administering and maintaining five servers and a virtual web server.</p>
+				<p>I have appointed and supervised external service providers and implemented and integrated a number of cloud based services.</p>
 			</aside>
 
 			<aside>
