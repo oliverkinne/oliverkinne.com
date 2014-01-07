@@ -4,6 +4,27 @@
 			<h3>My Projects</h3>
 
 			<aside>
+				<h4>i-Power Website</h4>
+				<p class="dates"><?php print_date_range('1 November 2013', '31 December 2013') ?></p>
+				<p class="team"></p>
+				<p>i-Power (UK) Limited designs, builds and installs fully integrated audio, power and access control systems operating on a pure IP platform, which means existing networks and infrastructure can be reused and the systems can be controlled via the internet.</p>
+				<p>I based the website design on an early company brochure, using its colour scheme and graphical elements to provide two intial design options, which I made in Illustrator and Photoshop and sent to the client as PDFs.</p>
+				<p>The client chose elements from the initial designs which I combined into one, final design, which was further refined before being signed off.</p>
+				<p>I converted the design into a website using Dreamweaver and created an AWS virtual server running Windows Server 2008 with IIS for testing.</p>
+				<p>Throughout the project there was regular contact with the client, and even though the schedule was fairly tight, the site launched on time, just before the Christmas break and quickly attracted customer interest.</p>
+			</aside>
+
+			<aside class="side">
+				<h5>Related Skills</h5>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, ASP, Dreamweaver, Web Development, Illustrator, Photoshop, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
+
+				<h5>Related Links</h5>
+				<ul>
+					<li><a href="http://www.pentonuk.co.uk/ipower/">Website</a></li>
+				</ul>
+			</aside>
+
+			<aside>
 				<h4>Clans of Macaria</h4>
 				<p class="dates"><?php print_date_range('1 October 2013', null) ?></p>
 				<p class="team"></p>
