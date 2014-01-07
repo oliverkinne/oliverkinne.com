@@ -15,8 +15,8 @@ if ($server != 'direct.oliverkinne.com' && $server != 'www.oliverkinne.com') {
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-	<meta name="keywords" content="Oliver Kinne" />
-	<meta name="description" content="Oliver Kinne - Web Developer / Software Engineer" />
+	<meta name="keywords" content="Oliver Kinne, websites, domain names, networking, cloud services, hardware, software, virtualisation, IT consultancy, support" />
+	<meta name="description" content="Oliver Kinne - Web Development / IT Consultancy" />
 
 	<title>Oliver Kinne - Web Development / IT Consultancy</title>  
 
