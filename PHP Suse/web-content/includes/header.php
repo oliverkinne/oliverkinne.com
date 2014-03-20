@@ -90,13 +90,13 @@ else {
 }
 ?><span class="divider"> | </span>
 <?php
-if ($path.$page == '/resume/') {
+if ($path.$page == '/cv/') {
 ?>
-				<span class="selected">Resum&eacute;</span><?php
+				<span class="selected">CV</span><?php
 }
 else {
 ?>
-				<a href="/resume/">Resum&eacute;</a><?php
+				<a href="/cv/">CV</a><?php
 }
 ?><span class="divider"> | </span>
 <?php

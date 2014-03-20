@@ -1,7 +1,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 	<article>
 		<section>
-			<h3>My Resume</h3>
+			<h3>My CV</h3>
 
 			<aside>
 				<p>I am a developer at heart and relish exploring new technologies and learning new skills, applying them to business processes to improve efficiency, increase productivity and develop new business opportunities.</p>
@@ -24,7 +24,7 @@
 
 			<aside class="side">
 				<h5>Related Skills</h5>
-				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, PHP, ASP, CDN, VBScript, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Amazon Web Services, Virtualization, IIS, Network Administration, PCI DSS, Payment Processing, CRM, Team Leadership, IT Strategy, Operating Systems, Cloud Computing, Project Management, Confluence, System Administration, Active Directory, Microsoft Exchange, Office 365, Firewalls, Microsoft Office, Budgets, Crystal Reports</p>
+				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, PHP, ASP, CDN, VBScript, SQL Server, MySQL, MS Access, Dreamweaver, Web Development, Joomla, Confluence, Email Marketing, CRM, Github, Photoshop, Cloud Computing, Virtualization, Office 365, Amazon Web Services, YaST, IIS, Network Administration, PCI DSS, Payment Processing, Team Leadership, IT Strategy, Operating Systems, Project Management, System Administration, Active Directory, Microsoft Exchange, Networking, Servers, Firewalls, Microsoft Office, Budgets, Crystal Reports</p>
 
 				<h5>Recommendations</h5>
 
