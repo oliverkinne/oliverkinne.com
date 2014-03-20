@@ -56,6 +56,8 @@
 					<li>System Administration</li>
 					<li>Active Directory</li>
 					<li>Microsoft Exchange</li>
+					<li>Networking</li>
+					<li>Servers</li>
 					<li>Firewalls</li>
 					<li>Microsoft Office</li>
 					<li>Budgets</li>
