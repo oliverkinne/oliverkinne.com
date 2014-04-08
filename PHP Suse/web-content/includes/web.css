@@ -107,16 +107,16 @@ article section h4, article section h5 { margin: 22px 0 12px 0; }
 article section h6 { margin: 16px 0 12px 0; }
 article section h6, article section h6 a { color: #808080; }
 
-article section nav { float: left; padding: 46px 0 0 33px; }
-article section .divider { width: 20px; color: #eae5e5; }
+article section nav { float: left; padding: 46px 0 0 453px; }
+article section .divider { width: 10px; color: #eae5e5; }
 article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
 article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
-article section nav a.skills { background-color: #3fe534; }
-article section nav a.skills:hover { background-color: #3d8738; }
-article section nav a.resume { background-color: #ff0; }
-article section nav a.resume:hover { background-color: #a25c28; }
-article section nav a.projects { background-color: #73a6fb; }
-article section nav a.projects:hover { background-color: #3a5a8e; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
 article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
 article section nav a span {
 	<!--[if lt IE 9]>
@@ -127,7 +127,6 @@ article section nav a span {
 }
 
 article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
-article section aside.home { clear: none; padding-top: 54px; }
 article section aside.wide { width: 800px; }
 article section aside.side { clear: none; width: 334px; }
 article section aside p { margin-bottom: 14px; }

@@ -33,15 +33,6 @@ switch ($path) {
 	case "/skills/":
 ?>	
 	<style>
-article section h5 { background-position: 0 -32px; }
-ul li:before { color: #3fe534; }
-	</style>
-<?php
-		break;
-
-	case "/resume/":
-?>	
-	<style>
 article section h5 { background-position: 0 -16px; }
 ul li:before { color: #ff0; }
 	</style>
@@ -49,6 +40,15 @@ ul li:before { color: #ff0; }
 		break;
 
 	case "/projects/":
+?>	
+	<style>
+article section h5 { background-position: 0 -32px; }
+ul li:before { color: #3fe534; }
+	</style>
+<?php
+		break;
+
+	case "/resume/":
 ?>	
 	<style>
 ul li:before { color: #73a6fb; }
@@ -90,16 +90,6 @@ else {
 }
 ?><span class="divider"> | </span>
 <?php
-if ($path.$page == '/cv/') {
-?>
-				<span class="selected">CV</span><?php
-}
-else {
-?>
-				<a href="/cv/">CV</a><?php
-}
-?><span class="divider"> | </span>
-<?php
 if ($path.$page == '/skills/') {
 ?>
 				<span class="selected">Skills</span><?php
@@ -117,6 +107,16 @@ if ($path.$page == '/projects/') {
 else {
 ?>
 				<a href="/projects/">Projects</a><?php
+}
+?><span class="divider"> | </span>
+<?php
+if ($path.$page == '/cv/') {
+?>
+				<span class="selected">CV</span><?php
+}
+else {
+?>
+				<a href="/cv/">CV</a><?php
 }
 ?><span class="divider"> | </span>
 <?php
