@@ -55,7 +55,7 @@
 				<p>Clans of Macaria is an on-line, turn-based game for multiple players. The game system uses elements from many popular board games, but as a whole is completely original.</p>
 				<p>It is still in development and is programmed in PHP, using a MySQL database to store the game states and related data. The site uses JQuery, CSS and HTML.</p>
 				<p>It is an illustration of my development knowledge and experience and shows that I am self-motivated and can learn new skills quickly and independantly.</p>
-				<p>Like 'My Resum&eacute; Website', this website is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
+				<p>The website is hosted on a Linux server running Apache, MySQL and PHP on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
 			</aside>
 
 			<aside class="side">
@@ -71,7 +71,7 @@
 
 				<h5 class="github">Github Updates</h5>
 <?php
-GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/clans-of-macaria/events');
+GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 ?>
 			</aside>
 
@@ -82,7 +82,7 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 				<p>The oliverkine.com website was built in PHP, with SEO and pageload performance in mind. CloudFlare CDN was applied to make the site even more efficient and load even more quickly.</p>
 				<p>CSS is used on the homepage to create rollover effects, as well as for styling.</p>
 				<p>The opening of external links in a new window/tab is achieved via JQuery.</p>
-				<p>The site is hosted on a SUSE Linux Enterprise Server 11 running Apache 2.2, MySQL 5.5, PHP 5.3 and Ruby 1.8.7 on Amazon's Web Services.</p>
+				<p>The website is hosted on a Linux server running Apache, MySQL and PHP on Amazon's Web Services, and it uses performance improving and search engine optimisation techniques, as well as CDN.</p>
 				<p>It is an illustration of the web development skills and experience I have and shows that I can work on a project independantly, am self-motivated and can quickly learn new skills on the job.</p>
 			</aside>
 
@@ -98,7 +98,7 @@ GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/
 
 				<h5 class="github">Github Updates</h5>
 <?php
-GitHubEvents('http://www.gmodules.com/ig/proxy?url=https://api.github.com/repos/oliverkinne/oliverkinne.com/events');
+GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 ?>
 			</aside>
 
@@ -331,11 +331,9 @@ Budgets</p>
 <?php
 
 function GitHubEvents($githubapiurl) {
-	// use HTTP proxy to bypass missing SSL wrapper in AWS EC2
-	// for https://api.github.com/... --
-	// downside is that we're dealing with some potentially
-	// 'dodgy' websites... oh well, it's a workaround for now
-	$events = json_decode(file_get_contents($githubapiurl));
+	ini_set('user_agent', 'PHP'); // GitHub requires this
+
+	$events = json_decode(file_get_contents('https://api.github.com' . $githubapiurl, false, stream_context_create(array('http' => array('method' => 'GET', 'header' => 'Authorization: token 25ac31313306ee23e01cbbe0262992d69cb09af8')))));
 
 	if (count($events) > 0) {
 ?>
