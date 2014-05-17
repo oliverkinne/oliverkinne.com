@@ -107,7 +107,7 @@ article section h4, article section h5 { margin: 22px 0 12px 0; }
 article section h6 { margin: 16px 0 12px 0; }
 article section h6, article section h6 a { color: #808080; }
 
-article section nav { float: left; padding: 46px 0 0 453px; }
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
 article section .divider { width: 10px; color: #eae5e5; }
 article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
 article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }

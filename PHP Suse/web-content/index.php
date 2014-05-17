@@ -5,15 +5,7 @@
 			<h3 class="image"><span></span>Oliver Kinne</h3>
 
 			<aside style="clear: none; float: left">
-				<p>Do you need help updating your website or building a new one, handling your email marketing or finding a powerful, cost-effictive emailing tool, updating your promotional materials or revitalizing your brand?</p>
-				<p>I can help.</p>
-				<p>I can also help if you want advice on setting up your first office, finding a cost-effective email solution, improving your existing IT systems, moving to cloud services, tuning your databases or updating your networking infrastructure.</p>
-				<p>I deliver high quality work and have over two decades' experience in IT. I have successfully managed numerous projects of varying sizes for a number of clients and have good working relationships with designers, copywriters, PR and marketing consultants, photographers and print production experts.</p>
-				<p>I am happy to project management everything for you, or only take on those tasks that you want help with.</p>
-				<p>No job is too small and no job is too large.</p>
-				<p><strong>Contact me now for more information:<br>
-					M: 07773 278 142<br>
-					E: <a href="mailto:me@oliverkinne.com">me@oliverkinne.com</a></strong></p>
+				<p>I have over two decades' experience in IT, covering software and web development, email marketing, CMS, CRM, cloud services, databases, servers, networking, security and many related technologies. I deliver high quality work and have successfully managed numerous projects of varying size for a number of clients.</p>
 			</aside>
 
 			<nav>
