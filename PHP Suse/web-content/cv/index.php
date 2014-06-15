@@ -11,11 +11,24 @@
 			</aside>
 
 			<aside>
+				<h4>TUi Travel PLC</h4>
+				<p class="dates">June 2014 - Present</p>
+				<p class="team">DevOps Engineer</p>
+				<p>In my current role, I am responsible for the development, deployment and maintenance of the technical architecture of the digital platform running TUi's business websites and work closely with the Drupal development team.</p>
+				<p>I develop deployment scripts, maintain the servers and administer the MySQL databases as part of a global rollout of the platform. I also assist in building server monitoring infrastructure and carry out performance testing of the platform.</p>
+			</aside>
+
+			<aside class="side">
+				<h5>Related Skills</h5>
+				<p>Drupal, Cloud Computing, Virtualization, Github, PHP</p>
+			</aside>
+
+			<aside>
 				<h4>PLASA</h4>
-				<p class="dates">July 1999 -  Present (over 14 years)</p>
-				<p class="team">Website Developer</p>
-				<p>In my current role, I manage a member of staff to fulfill all internal design, print production and web development requirements. I also manage two IT support companies to maintain and look after our internal IT infrastructure.</p>
-				<p>I control a budget of over &pound;150,000 and deal with all software and web development projects. I oversee the IT infrastructure of three offices in two time zones, supporting over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
+				<p class="dates">July 1999 -  June 2014 (14 years 11 months)</p>
+				<p class="team">IT Manager</p>
+				<p>I managed a member of staff to fulfill all internal design, print production and web development requirements. I also managed two IT support companies to maintain and look after our internal IT infrastructure.</p>
+				<p>I controlled a budget of over &pound;150,000 and dealt with all software and web development projects. I oversaw the IT infrastructure of three offices in two time zones, supporting over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
 				<p>Over the years I completely overhauled the company's single website and extended it into five sites, creating a new advertising revenue stream of over &pound;20,000 annually.</p>
 				<p>I programmed the sites in JScript (ASP) and PHP, and designed them to be device agnostic and search engine optimized. I implemented load performance improvements, such as lazy image loading and late script loading. I developed a number of different caching techniques to reduce the load on the server and recently implemented CDN on some sites to increase performance even further. I used JQuery for cross-platform compatibility and rapid development, and applied strict CSS and HTML separation for easy site maintenance.</p>
 				<p>I also designed and implemented a number of SQL databases, as well as some internal MS Access databases and other simple systems to allow non-technical staff to update our websites and make staff more efficient and productive.</p>

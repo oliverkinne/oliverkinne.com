@@ -26,6 +26,7 @@
 					<li>CDN</li>
 					<li>Github</li>
 					<li>Joomla</li>
+					<li>Drupal</li>
 					<li>WordPress</li>
 					<li>Confluence</li>
 					<li>Project Management</li>
@@ -44,7 +45,9 @@
 					<li>Dreamweaver</li>
 					<li>Web Development</li>
 					<li>Email Marketing</li>
+					<li>MailChimp</li>
 					<li>CRM</li>
+					<li>Insightly</li>
 					<li>Photoshop</li>
 					<li>Flash</li>
 					<li>YaST</li>
