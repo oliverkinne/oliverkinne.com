@@ -1,0 +1,209 @@
+/* reset =================================================== */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; }
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
+a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
+ol, ul { margin: 0; padding: 0; }
+ol { list-style: decimal; }
+ul { list-style: none; }
+ol li, ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
+ul li { padding-left: 11px; text-indent: -11px; }
+ul li:before { content: "• "; color: #606060; font-size: 1.3em; display: inline-block; width: 10px; }
+a, img { outline: none; border: none; }
+img { display: inline-block; }
+article, aside, details, footer, header, nav, section { display: block; }
+
+/* global styles ========================================================= */
+a:hover, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: underline; }
+nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
+a.tel:hover, p.social a:hover { border: none; }
+footer a.tel:hover, p.social a:hover { color: #fff; }
+a.tel:hover { cursor: text; }
+a:hover img { opacity: 0.6; filter: alpha(opacity=60); }
+nav a, span.selected { text-transform: uppercase; }
+span.selected { color: #bababa; }
+
+img.middle { vertical-align: text-bottom; }
+
+.divider { display: inline-block; overflow: hidden; }
+
+.clear { clear: both; width: 0; height: 0; overflow: hidden; }
+
+/* non displaying text =================================================== */
+article section h3.image, footer section p .button, footer section p.social a, .divider, .clear { font-size: 0; line-height: 0; text-indent: -10000px; }
+article section h3.image, article section nav a, footer section p .button, footer section p.social a { position: relative; }
+article section h3.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* center site ============================================= */
+header, article, footer { width: 100%; clear: both; }
+section { margin: 0 auto 0 auto; width: 880px; }
+
+/* header ================================================== */
+header { border-top: 14px solid #606060; padding-top: 37px; }
+header section div { float: left; margin: 0 0 36px 60px; width: 377px; }
+header section div a { text-decoration: none; }
+header section div h1 a { font-size: 3.9em; font-weight: bold; }
+header section div h2 a { font-size: 1.5em; }
+
+/* navigation ============================================== */
+header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
+header section nav .divider { width: 40px; color: white; }
+
+/* body ===================================================== */
+article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
+
+article section h3 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
+article section h3.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
+article section h3.image span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url('/img/Oliver-Kinne.jpg');
+	background-size: cover;
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span1 {
+	z-index: 10;
+	display: none;
+	background-image: url('/img/Oliver-Kinne1.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span2 {
+	z-index: 11;
+	display: none;
+	background-image: url('/img/Oliver-Kinne2.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span3 {
+	z-index: 12;
+	display: none;
+	background-image: url('/img/Oliver-Kinne3.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+
+article section h4 { font-size: 1.5em; }
+article section h5 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; }
+article section h5.github { background-image: url('/img/githubb.png'); }
+article section h4, article section h4 a, article section h5, article section h5 a, article section h6, article section h6 a { font-weight: bold; }
+article section h5, article section h6 { font-size: 1.2em; }
+article section h4, article section h5 { margin: 22px 0 12px 0; }
+article section h6 { margin: 16px 0 12px 0; }
+article section h6, article section h6 a { color: #808080; }
+
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
+article section .divider { width: 10px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span {
+	<!--[if lt IE 9]>
+	/* use scaled background image for rounded corners in IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
+	<![endif]-->
+}
+
+article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
+article section aside.wide { width: 800px; }
+article section aside.side { clear: none; width: 334px; }
+article section aside p { margin-bottom: 14px; }
+article section aside p, article section aside li { font-size: 1.2em; line-height: 1.5em; }
+article section aside p.dates { margin-bottom: 0px; color: #808080; }
+article section aside p.dates, article section aside p.team { font-size: 1.1em; }
+
+article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
+
+/* footer =================================================== */
+footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
+footer section div { margin-left: 50px; }
+footer section p { font-size: 1.2em; float: left; width: 207px; padding-right: 47px; }
+footer section p, footer section p a { color: #fff; }
+
+footer section p .button { display: block; float: left; width: 45px; height: 45px; margin: -8px 18px 0 0; }
+footer section p .button.tel span { background: url('/img/phone.png'); }
+footer section p .button.email span { background: url('/img/email.png'); }
+footer section p .button.social span { background: url('/img/social.png'); }
+
+footer section p.social { width: 177px; }
+footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 6px 0 0; }
+footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
+footer section .github span { background: url('/img/github.png'); }
+footer section .spiceworks span { background: url('/img/spiceworks.png'); }
+footer section .linkedin span { background: url('/img/linkedin.png'); }
+
+footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
+footer section p.ipv6 a:hover { border: none; }
+
+/* media queries =================================================== */
+@media only screen and (max-width: 905px) {
+	section { width: 450px; }
+
+	/* header ================================================== */
+	header section div { margin: 0; }
+
+	/* navigation ============================================== */
+	header section nav { padding: 32px 0 27px 0; }
+
+	/* body ===================================================== */
+	article section h3 { padding-left: 0; }
+	article section h3.image { width: 112px; height: 112px; }
+	article section h4, article section h5, article section h6 { margin-top: 0; }
+
+	article section nav { padding: 0 0 0 25px; }
+	article section .divider { width: 7px; }
+	article section nav a { font-size: 1.1em; width: 55px; height: 62px; padding: 31px 20px 0 18px; }
+
+	article section aside, article section aside.home { padding: 14px 0 0 12px; float: none; clear: left; }
+	article section aside.wide, article section aside.side { width: 400px; }
+
+	/* footer =================================================== */
+	footer section div { margin-left: 0; }
+	footer section p { height: 62px; }
+	footer section p.tel, footer section p.social { width: 215px; padding-right: 22px; }
+	footer section p.email { width: 207px; padding-right: 0; }
+}
+
+@media only screen and (max-width: 520px) {
+	section { width: 300px; }
+
+	/* navigation ============================================== */
+	header section nav { width: 300px; font-size: 1.1em; }
+	header section nav .divider { width: 11px; }
+
+	/* body ===================================================== */
+	article section h3.image { width: 72px; height: 72px; }
+
+	article section nav { padding-left: 17px; height: 63px; }
+	article section .divider { width: 5px; }
+	article section nav a { font-size: 0.9em; width: 51px; height: 45px; padding: 18px 6px 0 6px; }
+
+	article section aside { padding-top: 18px; }
+	article section aside, article section aside.wide, article section aside.side { width: 280px; }
+
+	/* footer =================================================== */
+	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
+	footer section p.ipv6 { width: 50px; }
+}
