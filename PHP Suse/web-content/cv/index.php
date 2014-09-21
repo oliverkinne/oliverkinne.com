@@ -4,28 +4,28 @@
 			<h3>My CV</h3>
 
 			<aside>
-				<p>I am a developer at heart and relish exploring new technologies and learning new skills, applying them to business processes to improve efficiency, increase productivity and develop new business opportunities.</p>
-				<p>During my career I have created many dynamic, database-driven, search engine optimized and high performing sites that are highly optimized, device agnostic and accessible by people of all abilities and disabilities.</p>
-				<p>I have applied my networking experience to streamline the IT infrastructure and to scale it to be able to handle multiple offices in different time zones, supporting several dozen staff, including home workers, while administering and maintaining five servers and a virtual web server.</p>
-				<p>I have appointed and supervised external service providers and implemented and integrated a number of cloud based services.</p>
+				<p>I relish exploring new technologies and learning new skills, applying them to business processes to improve efficiency, increase productivity and develop new business opportunities.</p>
+				<p>During my long career in IT, I have supported multiple offices in different time zones, with several dozen staff, including home workers. I have also administered, maintained and consolidated multiple, business critical servers.</p>
+				<p>I have appointed and supervised external service providers and implemented and integrated a large number of projects of varying size and complexity.</p>
+				<p>I have many years' experience in software development and website programming and I continue to work closely with developers, but my focus has now shifted to server infrastructure support.</p>
 			</aside>
 
 			<aside>
-				<h4>TUi Travel PLC</h4>
+				<h4>TUI Travel PLC</h4>
 				<p class="dates">June 2014 - Present</p>
 				<p class="team">DevOps Engineer</p>
-				<p>In my current role, I am responsible for the development, deployment and maintenance of the technical architecture of the digital platform running TUi's business websites and work closely with the Drupal development team.</p>
-				<p>I develop deployment scripts, maintain the servers and administer the MySQL databases as part of a global rollout of the platform. I also assist in building server monitoring infrastructure and carry out performance testing of the platform.</p>
+				<p>In my current role, I am responsible for the web server infrastructure running TUI's business websites and I work closely with the Drupal development team, helping them with the depolyment of new functionality and bug fixes.</p>
+				<p>I am not only responsible for monitoring and maintaining over a dozen LAMP and Microsoft web servers and their related services, but I also improve server infrastructure and consolidate servers to increase efficiency and reduce costs.</p>
 			</aside>
 
 			<aside class="side">
 				<h5>Related Skills</h5>
-				<p>Drupal, Cloud Computing, Virtualization, Github, PHP</p>
+				<p>JIRA, Drupal, Apache, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP</p>
 			</aside>
 
 			<aside>
 				<h4>PLASA</h4>
-				<p class="dates">July 1999 -  June 2014 (14 years 11 months)</p>
+				<p class="dates">July 1999 - June 2014 (14 years 11 months)</p>
 				<p class="team">IT Manager</p>
 				<p>I managed a member of staff to fulfill all internal design, print production and web development requirements. I also managed two IT support companies to maintain and look after our internal IT infrastructure.</p>
 				<p>I controlled a budget of over &pound;150,000 and dealt with all software and web development projects. I oversaw the IT infrastructure of three offices in two time zones, supporting over 50 staff and freelancers, including software, hardware, networking, site-to-site connections, operating systems, cloud services, etc.</p>
