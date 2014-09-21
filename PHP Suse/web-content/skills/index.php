@@ -29,6 +29,7 @@
 					<li>Drupal</li>
 					<li>WordPress</li>
 					<li>Confluence</li>
+					<li>JIRA</li>
 					<li>Project Management</li>
 					<li>JScript</li>
 					<li>JavaScript</li>
@@ -50,7 +51,7 @@
 					<li>Insightly</li>
 					<li>Photoshop</li>
 					<li>Flash</li>
-					<li>YaST</li>
+					<li>Apache</li>
 					<li>IIS</li>
 					<li>Network Administration</li>
 					<li>PCI DSS</li>
