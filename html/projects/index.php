@@ -4,6 +4,35 @@
 			<h3>My Projects</h3>
 
 			<aside>
+				<h4>Webistrano/Capistrano Xen VM Build</h4>
+				<p class="dates"><?php print_date_range('1 August 2014', '1 August 2014') ?></p>
+				<p class="team"></p>
+				<p>The development team needed to replace their existing Webistrano server, so I was tasked with building a guest VM on one of the development team's Xen servers.</p>
+				<p>I started with a standard CentOS installation, hardened the configuration and set up IP forwarding on the VM host, so that the guest would be directly accessible from the internal network.</p>
+				<p>I then started installing the applications, which was no problem, except for Webistrano. However, after some thorough &quot;head scratching&quot; (aka Google searches) I was able to get it all running.</p>
+				<p>I finished by writing a few scripts to ensure everything started up again, if the server was ever rebooted.</p>
+			</aside>
+
+			<aside class="side">
+				<h5>Related Skills</h5>
+				<p>Webistrano, Capistrano, Xen, Virtualization, CentOS, Networking</p>
+			</aside>
+
+			<aside>
+				<h4>Zenoss Virtual Linux Server Monitoring</h4>
+				<p class="dates"><?php print_date_range('1 July 2014', '1 July 2014') ?></p>
+				<p class="team"></p>
+				<p>We decided to use Zenoss to monitor our server infrastructure, so I was tasked with configuring the solution for our virtual Linux servers.</p>
+				<p>Zenoss had already been set up and configured for our Windows server infrastructure, as well as some of our network devices, but as the new DevOps engineer it came to me to configure the solution to monitor our virtual Linux servers.</p>
+				<p>Initially the project was started as a "nice-to-have", but the information we received from Zenoss quickly highlighted a few server inefficiencies, which we were able to investigate further and fix, thus making our servers work more reliably.</p>
+			</aside>
+
+			<aside class="side">
+				<h5>Related Skills</h5>
+				<p>Virtualization, Zenoss, CentOS, System Administration, Servers</p>
+			</aside>
+
+			<aside>
 				<h4>CRM Migration</h4>
 				<p class="dates"><?php print_date_range('1 February 2012', '31 January 2014') ?></p>
 				<p class="team"></p>

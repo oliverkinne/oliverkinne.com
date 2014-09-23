@@ -5,6 +5,7 @@
 
 			<aside>
 				<h4>Summary</h4>
+				<p>DevOps: I have successfully deployed a number of development releases and maintained a group of over a dozen LAMP servers. I have configured and maintained a Webistrano/Capistrano setup, and used Vagrant and Puppet for web server environment control and deployment.</p>
 				<p>Management: I have successfully managed a large number of projects of varying sizes in terms of budget, size of team and duration. I also have recently achieved AgilePM Foundation certification.</p>
 				<p>Cloud Services: I have migrated in-house Exchange infrastructure to Microsoft Office 365 and implemented Amazon Web Services' S3 to extend file storage, as well as set up AWS EC2 to build a LAMP test server.</p>
 				<p>CMS/Wikis: I have developed a number of systems that allow comany employees to update website content as necessary, without the need for an IT person. I have hands-on experience with Joomla and WordPress, and installed, configured, administered and developed plug-ins and templates for both. I have also set up and maintained a Confluence server to maintain a Wiki.</p>
@@ -21,6 +22,8 @@
 					<li>AgilePM</li>
 					<li>Cloud Computing</li>
 					<li>Virtualization</li>
+					<li>Xen</li>
+					<li>Zenoss</li>
 					<li>Office 365</li>
 					<li>Amazon Web Services</li>
 					<li>CDN</li>
@@ -30,6 +33,9 @@
 					<li>WordPress</li>
 					<li>Confluence</li>
 					<li>JIRA</li>
+					<li>Webistrano</li>
+					<li>Capistrano</li>
+					<li>DevOps</li>
 					<li>Project Management</li>
 					<li>JScript</li>
 					<li>JavaScript</li>
@@ -58,7 +64,8 @@
 					<li>Payment Processing</li>
 					<li>Team Leadership</li>
 					<li>IT Strategy</li>
-					<li>Operating Systems</li>
+					<li>CentOS</li>
+					<li>Windows Server</li>
 					<li>System Administration</li>
 					<li>Active Directory</li>
 					<li>Microsoft Exchange</li>
