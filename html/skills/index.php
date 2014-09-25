@@ -20,64 +20,58 @@
 				<h5>Keywords</h5>
 				<ul>
 					<li>AgilePM</li>
-					<li>Cloud Computing</li>
+					<li>DevOps</li>
+					<li>Apache</li>
+					<li>IIS</li>
+					<li>Webistrano</li>
+					<li>Capistrano</li>
+					<li>Github</li>
 					<li>Virtualization</li>
 					<li>Xen</li>
 					<li>Zenoss</li>
+					<li>Cloud Computing</li>
 					<li>Office 365</li>
 					<li>Amazon Web Services</li>
 					<li>CDN</li>
-					<li>Github</li>
 					<li>Joomla</li>
 					<li>Drupal</li>
 					<li>WordPress</li>
-					<li>Confluence</li>
-					<li>JIRA</li>
-					<li>Webistrano</li>
-					<li>Capistrano</li>
-					<li>DevOps</li>
+					<li>SQL Server</li>
+					<li>MySQL</li>
+					<li>MS Access</li>
 					<li>Project Management</li>
-					<li>JScript</li>
+					<li>JIRA</li>
+					<li>Confluence</li>
+					<li>SEO</li>
+					<li>Web Development</li>
 					<li>JavaScript</li>
 					<li>JQuery</li>
-					<li>SEO</li>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>PHP</li>
 					<li>ASP</li>
-					<li>VBScript</li>
-					<li>SQL Server</li>
-					<li>MySQL</li>
-					<li>MS Access</li>
-					<li>Dreamweaver</li>
-					<li>Web Development</li>
-					<li>Email Marketing</li>
+					<li>JScript</li>
 					<li>MailChimp</li>
 					<li>CRM</li>
 					<li>Insightly</li>
 					<li>Photoshop</li>
 					<li>Flash</li>
-					<li>Apache</li>
-					<li>IIS</li>
-					<li>Network Administration</li>
 					<li>PCI DSS</li>
 					<li>Payment Processing</li>
 					<li>Team Leadership</li>
 					<li>IT Strategy</li>
+					<li>System Administration</li>
 					<li>CentOS</li>
 					<li>Windows Server</li>
-					<li>System Administration</li>
 					<li>Active Directory</li>
 					<li>Microsoft Exchange</li>
 					<li>Networking</li>
 					<li>Servers</li>
 					<li>Firewalls</li>
-					<li>Microsoft Office</li>
 					<li>Budgets</li>
 					<li>Crystal Reports</li>
 					<li>German</li>
 					<li>English</li>
-					<li>C++</li>
 				</ul>
 			</aside>
 		
