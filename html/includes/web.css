@@ -53,50 +53,6 @@ header section nav .divider { width: 40px; color: white; }
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
-article section h3.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
-article section h3.image span {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background-image: url('/img/Oliver-Kinne.jpg');
-	background-size: cover;
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span1 {
-	z-index: 10;
-	display: none;
-	background-image: url('/img/Oliver-Kinne1.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span2 {
-	z-index: 11;
-	display: none;
-	background-image: url('/img/Oliver-Kinne2.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span3 {
-	z-index: 12;
-	display: none;
-	background-image: url('/img/Oliver-Kinne3.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-
 article section h2 { font-size: 1.5em; }
 article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; }
 article section h3.github { background-image: url('/img/githubb.png'); }
