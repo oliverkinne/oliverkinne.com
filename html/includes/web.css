@@ -54,13 +54,10 @@ article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px 
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
 article section h2 { font-size: 1.5em; }
-article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; }
-article section h3.github { background-image: url('/img/githubb.png'); }
 article section h2, article section h2 a, article section h3, article section h3 a, article section h4, article section h4 a { font-weight: bold; }
 article section h2 { font-size: 1.4em; }
-article section h3 { font-size: 1.3em; }
 article section h1 { margin: 22px 0 12px 0; }
-article section h2, article section h3 { margin: 16px 0 12px 0; }
+article section h2 { margin: 16px 0 12px 0; }
 article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
 
 article section nav { clear: none; float: left; padding: 46px 0 0 33px; }

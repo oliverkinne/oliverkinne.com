@@ -93,6 +93,15 @@ else {
 ?>
 
 <?php
+if ($path != "/") {
+?>
+	<style>
+article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; font-size: 1.3em; margin: 16px 0 12px 0; }
+	</style><?php
+}
+?>
+
+<?php
 switch ($path) {
 	case "/skills/":
 ?>	
