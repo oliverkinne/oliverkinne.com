@@ -14,8 +14,8 @@ img { display: inline-block; }
 article, aside, details, footer, header, nav, section { display: block; }
 
 /* global styles ========================================================= */
-a:hover, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration: underline; }
+a:hover, p.h1 a, p.h2 a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
+p.h1 a:hover, p.h2 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { border-bottom: 1px solid #606060; }
 nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
 a.tel:hover, p.social a:hover { border: none; }
 footer a.tel:hover, p.social a:hover { color: #fff; }
@@ -42,9 +42,8 @@ section { margin: 0 auto 0 auto; width: 880px; }
 /* header ================================================== */
 header { border-top: 14px solid #606060; padding-top: 37px; }
 header section div { float: left; margin: 0 0 36px 60px; width: 377px; }
-header section div a { text-decoration: none; }
-header section div h1 a { font-size: 3.9em; font-weight: bold; }
-header section div h2 a { font-size: 1.5em; }
+header section div h1 a, p.h1 a { font-size: 3.9em; font-weight: bold; }
+header section div h2 a, p.h2 a { font-size: 1.5em; }
 
 /* navigation ============================================== */
 header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
@@ -53,9 +52,9 @@ header section nav .divider { width: 40px; color: white; }
 /* body ===================================================== */
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
-article section h3 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
-article section h3.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
-article section h3.image span {
+article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
+article section h1.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
+article section h1.image span {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -98,14 +97,15 @@ article section h3.image span {
 	<![endif]-->
 }
 
-article section h4 { font-size: 1.5em; }
-article section h5 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; }
-article section h5.github { background-image: url('/img/githubb.png'); }
-article section h4, article section h4 a, article section h5, article section h5 a, article section h6, article section h6 a { font-weight: bold; }
-article section h5, article section h6 { font-size: 1.2em; }
-article section h4, article section h5 { margin: 22px 0 12px 0; }
-article section h6 { margin: 16px 0 12px 0; }
-article section h6, article section h6 a { color: #808080; }
+article section h2 { font-size: 1.5em; }
+article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; }
+article section h3.github { background-image: url('/img/githubb.png'); }
+article section h2, article section h2 a, article section h3, article section h3 a, article section h4, article section h4 a { font-weight: bold; }
+article section h2 { font-size: 1.4em; }
+article section h3 { font-size: 1.3em; }
+article section h1 { margin: 22px 0 12px 0; }
+article section h2, article section h3 { margin: 16px 0 12px 0; }
+article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
 
 article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
 article section .divider { width: 10px; color: #eae5e5; }
@@ -132,7 +132,7 @@ article section aside.side { clear: none; width: 334px; }
 article section aside p { margin-bottom: 14px; }
 article section aside p, article section aside li { font-size: 1.2em; line-height: 1.5em; }
 article section aside p.dates { margin-bottom: 0px; color: #808080; }
-article section aside p.dates, article section aside p.team { font-size: 1.1em; }
+article section aside p.dates, article section aside p.team { font-size: 1.2em; }
 
 article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
 
@@ -168,9 +168,9 @@ footer section p.ipv6 a:hover { border: none; }
 	header section nav { padding: 32px 0 27px 0; }
 
 	/* body ===================================================== */
-	article section h3 { padding-left: 0; }
-	article section h3.image { width: 112px; height: 112px; }
-	article section h4, article section h5, article section h6 { margin-top: 0; }
+	article section h1 { padding-left: 0; }
+	article section h1.image { width: 112px; height: 112px; }
+	article section h2, article section h3, article section h4 { margin-top: 0; }
 
 	article section nav { padding: 0 0 0 25px; }
 	article section .divider { width: 7px; }
@@ -194,7 +194,7 @@ footer section p.ipv6 a:hover { border: none; }
 	header section nav .divider { width: 11px; }
 
 	/* body ===================================================== */
-	article section h3.image { width: 72px; height: 72px; }
+	article section h1.image { width: 72px; height: 72px; }
 
 	article section nav { padding-left: 17px; height: 63px; }
 	article section .divider { width: 5px; }

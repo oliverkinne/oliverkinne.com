@@ -1,10 +1,10 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 	<article>
 		<section>
-			<h3>My Skills</h3>
+			<h1>My Skills</h1>
 
 			<aside>
-				<h4>Summary</h4>
+				<h2>Summary</h2>
 				<p>DevOps: I have successfully deployed a number of development releases and maintained a group of over a dozen LAMP servers. I have configured and maintained a Webistrano/Capistrano setup, and used Vagrant and Puppet for web server environment control and deployment.</p>
 				<p>Management: I have successfully managed a large number of projects of varying sizes in terms of budget, size of team and duration. I also have recently achieved AgilePM Foundation certification.</p>
 				<p>Cloud Services: I have migrated in-house Exchange infrastructure to Microsoft Office 365 and implemented Amazon Web Services' S3 to extend file storage, as well as set up AWS EC2 to build a LAMP test server.</p>
@@ -17,7 +17,7 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Keywords</h5>
+				<h3>Keywords</h3>
 				<ul>
 					<li>AgilePM</li>
 					<li>DevOps</li>

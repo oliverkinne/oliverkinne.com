@@ -1,10 +1,10 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 	<article>
 		<section>
-			<h3>My Projects</h3>
+			<h1>My Projects</h1>
 
 			<aside>
-				<h4>Webistrano/Capistrano Xen VM Build</h4>
+				<h2>Webistrano/Capistrano Xen VM Build</h2>
 				<p class="dates"><?php print_date_range('1 August 2014', '1 August 2014') ?></p>
 				<p class="team"></p>
 				<p>The development team needed to replace their existing Webistrano server, so I was tasked with building a guest VM on one of the development team's Xen servers.</p>
@@ -14,12 +14,12 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Webistrano, Capistrano, Xen, Virtualization, CentOS, Networking</p>
 			</aside>
 
 			<aside>
-				<h4>Zenoss Virtual Linux Server Monitoring</h4>
+				<h2>Zenoss Virtual Linux Server Monitoring</h2>
 				<p class="dates"><?php print_date_range('1 July 2014', '1 July 2014') ?></p>
 				<p class="team"></p>
 				<p>We decided to use Zenoss to monitor our server infrastructure, so I was tasked with configuring the solution for our virtual Linux servers.</p>
@@ -28,12 +28,12 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Virtualization, Zenoss, CentOS, System Administration, Servers</p>
 			</aside>
 
 			<aside>
-				<h4>CRM Migration</h4>
+				<h2>CRM Migration</h2>
 				<p class="dates"><?php print_date_range('1 February 2012', '31 January 2014') ?></p>
 				<p class="team"></p>
 				<p>The project started in February 2012 when we started to invite CRM vendors to demo their products. We needed a solution that would be accessible equally from all of our three offices, Eastbourne, London and New York, and would be able to handle as many of our business processes as possible.</p>
@@ -46,17 +46,17 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>SQL Server, CRM, Cloud Computing, Project Management</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/crm-migration">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>i-Power Website</h4>
+				<h2>i-Power Website</h2>
 				<p class="dates"><?php print_date_range('1 November 2013', '31 December 2013') ?></p>
 				<p class="team"></p>
 				<p>i-Power (UK) Limited designs, builds and installs fully integrated audio, power and access control systems operating on a pure IP platform, which means existing networks and infrastructure can be reused and the systems can be controlled via the internet.</p>
@@ -67,10 +67,10 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, ASP, Dreamweaver, Web Development, Illustrator Photoshop, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://www.pentonuk.co.uk/ipower/">Website</a></li>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/i-power-website-build">Spiceworks Project Page</a></li>
@@ -78,7 +78,7 @@
 			</aside>
 
 			<aside>
-				<h4>Clans of Macaria</h4>
+				<h2>Clans of Macaria</h2>
 				<p class="dates"><?php print_date_range('1 October 2013', null) ?></p>
 				<p class="team"></p>
 				<p>Clans of Macaria is an on-line, turn-based game for multiple players. The game system uses elements from many popular board games, but as a whole is completely original.</p>
@@ -88,24 +88,24 @@
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://www.clansofmacaria.com/">Website</a></li>
 					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria">GitHub Repository</a></li>
 					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria/wiki/Entity-Relationship-Diagramme">Entity Relationship Diagramme</a></li>
 				</ul>
 
-				<h5 class="github">Github Updates</h5>
+				<h3 class="github">Github Updates</h3>
 <?php
 GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 ?>
 			</aside>
 
 			<aside>
-				<h4>My Website</h4>
+				<h2>My Website</h2>
 				<p class="dates"><?php print_date_range('1 September 2013', null) ?></p>
 				<p class="team"></p>
 				<p>The oliverkine.com website was built in PHP, with SEO and pageload performance in mind. CloudFlare CDN was applied to make the site even more efficient and load even more quickly.</p>
@@ -116,23 +116,23 @@ GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://www.oliverkinne.com/">Website</a></li>
 					<li><a href="https://github.com/oliverkinne/oliverkinne.com">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github">Github Updates</h5>
+				<h3 class="github">Github Updates</h3>
 <?php
 GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 ?>
 			</aside>
 
 			<aside>
-				<h4>Confluence by Atlassian Installation</h4>
+				<h2>Confluence by Atlassian Installation</h2>
 				<p class="dates"><?php print_date_range('1 September 2013', '1 September 2013') ?></p>
 				<p class="team"></p>
 				<p>We have been looking for a Wiki for our organisation for a while, when we were offered a free licence of Confluence by Atlassian, which we would otherwise not have considered as an option.</p>
@@ -143,17 +143,17 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>CMS, Cloud Computing</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/confluence-by-atlassian-installation">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>PCI-DSS Compliance</h4>
+				<h2>PCI-DSS Compliance</h2>
 				<p class="dates"><?php print_date_range('1 January 2013', null) ?></p>
 				<p class="team"></p>
 				<p>Many years ago, our company used to take card payments over the phone, by fax, even email, as well as on our websites. So when the PCI-DSS standard was introduced, we had to comply.</p>
@@ -168,17 +168,17 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>PCI DSS, Payment Processing</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/pci-dss-compliance">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>On-Premise Exchange to Office 365 Migration</h4>
+				<h2>On-Premise Exchange to Office 365 Migration</h2>
 				<p class="dates"><?php print_date_range('1 August 2012', '1 September 2012') ?></p>
 				<p class="team"></p>
 				<p>We had recently merged with another organisation in the United States and now had to cater for a total of three offices in two time zones, Eastbourne and London in the UK and New York in the US, each of which was running its own Exchange server and was linked to the Eastbourne HQ via sub domains.</p>
@@ -190,41 +190,41 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Cloud Computing, Office 365, Microsoft Exchange, Team Leadership, Project Management</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/on-premise-exchange-to-office-365-migration">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>LSi Online Website Rebuild</h4>
+				<h2>LSi Online Website Rebuild</h2>
 				<p class="dates"><?php print_date_range('1 June 2012', '30 April 2013') ?></p>
-				<p class="team">Team Members: <a href="http://uk.linkedin.com/pub/alex-dato/60/267/835/">Alex Dato</a>, <a href="http://uk.linkedin.com/pub/lee-baldock/1/b94/5a0/">Lee Baldock</a></p>
+				<p class="team">Team Members: <a href="http://uk.linkedin.com/pub/alex-dato/60/267/835">Alex Dato</a>, <a href="http://uk.linkedin.com/pub/lee-baldock/1/b94/5a0">Lee Baldock</a></p>
 				<p>The LSi Online website was rebuilt to make it device agnostic, allowing it to display equally well on desktop and laptop computers, as well as tablets and smartphones. The site was also built to load quickly, using &quot;lazyload&quot; for images, CSS sprites, late loading of JavaScript, caching of searches and other database driven information on the server and pre-building of database driven information where possible.</p>
 				<p>The site also employs SEO techniques, uses metadata for page classification and content tagging (OpenGraph) and is built with visually impaired users in mind as well.</p>
 				<p>Alex Dato was responsible for the design of the site, while Lee Baldock oversaw the project to make sure it met the Media team's requirements, and he tested the site as well. I built the site in ASP (JScript) using Dreamweaver.</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://www.lsionline.co.uk/">Website</a></li>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/website-rebuild">Spiceworks Project Page</a></li>
 					<li><a href="https://github.com/plasa/LSi_Online_2012">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github">Github Updates</h5>
+				<h3 class="github">Github Updates</h3>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
-				<h4>Online Manuals System</h4>
+				<h2>Online Manuals System</h2>
 				<p class="dates"><?php print_date_range('1 January 2012', null) ?></p>
 				<p class="team"></p>
 				<p>I developed an online manuals system for exhibitions and events. The system allows exhibitors to submit their orders to exhibition contractors, as well as complete regulatory and other required documentation to help the event management process.</p>
@@ -234,62 +234,62 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Github, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="https://www.plasamanuals.com/plasa2013/">Website</a></li>
 					<li><a href="https://github.com/plasa/PLASA_Manuals">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github">Github Updates</h5>
+				<h3 class="github">Github Updates</h3>
 				<p>The system's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
-				<h4>SagePay Credit Card Payment Processing Module</h4>
+				<h2>SagePay Credit Card Payment Processing Module</h2>
 				<p class="dates"><?php print_date_range('1 January 2012', null) ?></p>
 				<p class="team"></p>
 				<p>I developed a payment processing module, using the direct integration method of SagePay, to allow easy credit card processing on all of PLASA's websites.</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JScript, Github, PCI DSS, Payment Processing</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github">Github</h5>
+				<h3 class="github">Github</h3>
 				<p>The module's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
-				<h4>PLASA Lib - JQuery and JScript</h4>
+				<h2>PLASA Lib - JQuery and JScript</h2>
 				<p class="dates"><?php print_date_range('1 January 2011', null) ?></p>
 				<p class="team"></p>
 				<p>I built a library of JScript and JQuery functionality for rapid website development. The library is not based on existing code, but was programmed from the ground up. It covers string functions, date and number formatting functions, character conversion functions for UTF-8 and other HTML character sets, as well as server- and client-side form validation routines.</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="https://github.com/plasa/PLASA_Lib">GitHub Repository</a></li>
 				</ul>
 
-				<h5 class="github">Github Updates</h5>
+				<h3 class="github">Github Updates</h3>
 				<p>The library's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
 			<aside>
-				<h4>Virtualization of Web Server</h4>
+				<h2>Virtualization of Web Server</h2>
 				<p class="dates"><?php print_date_range('1 May 2009', '1 June 2009') ?></p>
 				<p class="team"></p>
 				<p>We used to own a HP ProLiant DL380 G4 server co-located with FastNet in Brighton, but as it started to became less reliable and as it was well beyond its manufacturer's warranty, we had to choose between replacing it with a new server, at a cost of around &pound;15k or switching to a virtual machine at a cost of around &pound;6.5k a year. We chose the virtual option, because even though it was more expensive over the average lifetime of a server of three years, we gained the benefits of a virtual solution, in particular not having to maintain the hardware, gaining built-in failover due to the setup's replicated nature, and being able to add more RAM, hard disc space or CPUs, or indeed reduce the spec, as and when needed.</p>
@@ -303,17 +303,17 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Virtualization, Cloud Computing, SQL Server, Networking, Servers, Firewalls, Network Administration</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/virtualization-of-web-server">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>Office Relocation</h4>
+				<h2>Office Relocation</h2>
 				<p class="dates"><?php print_date_range('15 December 2006', '14 January 2007') ?></p>
 				<p class="team"></p>
 				<p>At the end of 2006, PLASA relocated its office from the centre of town into a newly built trading estate. The relocation included 15 clients, one server and misc network equipment.</p>
@@ -330,24 +330,24 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Networking, Servers, Firewalls</p>
 
-				<h5>Related Links</h5>
+				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/office-relocation">Spiceworks Project Page</a></li>
 				</ul>
 			</aside>
 
 			<aside>
-				<h4>Searchable Book Database OTree</h4>
+				<h2>Searchable Book Database OTree</h2>
 				<p class="dates"><?php print_date_range('1 September 1998', '31 October 1998') ?></p>
 				<p class="team"></p>
 				<p>Development of bespoke, searchable books database on CD, which contained full information about tens of thousands of books, including title, author, description, ISBN, binding, pages, illustrations, etc. as well as a scanned cover image. I developed a new database system, called OTree, which was based on BTree, to create a highly compressed database of the books that would fit onto CD and would allow very fast searches and information retrieval.</p>
 			</aside>
 
 			<aside class="side">
-				<h5>Related Skills</h5>
+				<h3>Related Skills</h3>
 				<p>Databases, Operating Systems, System Administration, C++</p>
 			</aside>
 

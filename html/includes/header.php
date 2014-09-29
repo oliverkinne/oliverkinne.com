@@ -6,7 +6,7 @@ $path = preg_replace('/\/[^\/]*$/', '/', $pageURL);
 $mainPath = preg_replace('/^(\/[^\/]*\/).*$/', '$1', $path);
 
 if ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $server != 'oliverkinne') {
-	header('Location: http://www.oliverkinne.com'.$path.$page, true, 301);
+	header('Location: http://www.oliverkinne.com' . $path . $page, true, 301);
 	die();
 }
 ?><!doctype html>
@@ -15,7 +15,25 @@ if ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $serv
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-	<meta name="keywords" content="Oliver Kinne, websites, domain names, networking, cloud services, hardware, software, virtualisation, IT consultancy, support" />
+	<meta name="keywords" content="<?php
+switch ($path) {
+	case "/skills/":
+?>skills, devops, management, cloud services, cloud, virtualisation, content management systems, wikis, documentation, website development, HTML, databases, SQL, software, development, developer, source, code, coding<?php
+		break;
+	case "/projects/":
+?>projects, work, Webistrano, Capistrano, deployment, monitoring, Zenoss, server support, operations, infrastructure, migration, contact relationship management, website, homepage, bespoke, database<?php
+		break;
+	case "/cv/":
+?>experience, work, curriculum viatae, CV, skills, TUI, PLASA, self-employed, employed, fulltime<?php
+		break;
+	case "/contact/":
+?>call, speak, advice, contact, phone, mobile, cellphone, telephone, email, GitHub, Spiceworks, LinkedIn<?php
+		break;
+	default:
+?>Oliver Kinne, websites, domain names, networking, cloud services, hardware, software, virtualisation, IT consultancy, support<?php
+		break;
+}
+?>" />
 	<meta name="description" content="<?php
 switch ($path) {
 	case "/skills/":
@@ -60,13 +78,26 @@ switch ($path) {
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 
-	<link rel="stylesheet" type="text/css" href="/includes/web.css" />
+<?php
+if ($server == 'oliverkinne') {
+?>
+	<style><?php
+	include $_SERVER["DOCUMENT_ROOT"] . '/includes/web.css';
+?>
+	</style><?php
+}
+else {
+?>
+	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
+}
+?>
+
 <?php
 switch ($path) {
 	case "/skills/":
 ?>	
 	<style>
-article section h5 { background-position: 0 -16px; }
+article section h3 { background-position: 0 -16px; }
 ul li:before { color: #ff0; }
 	</style>
 <?php
@@ -75,13 +106,13 @@ ul li:before { color: #ff0; }
 	case "/projects/":
 ?>	
 	<style>
-article section h5 { background-position: 0 -32px; }
+article section h3 { background-position: 0 -32px; }
 ul li:before { color: #3fe534; }
 	</style>
 <?php
 		break;
 
-	case "/resume/":
+	case "/cv/":
 ?>	
 	<style>
 ul li:before { color: #73a6fb; }
@@ -107,8 +138,18 @@ ul li:before { color: #73a6fb; }
 	<header>
 		<section>
 			<div>
+<?php
+if ($path.$page == '/') {
+?>
 				<h1><a href="/">Oliver Kinne</a></h1>
-				<h2><a href="/">Web Development / IT Consultancy</a></h2>
+				<h2><a href="/">Web Development / IT Consultancy</a></h2><?php
+}
+else {
+?>
+				<p class="h1"><a href="/">Oliver Kinne</a></p>
+				<p class="h2"><a href="/">Web Development / IT Consultancy</a></p><?php
+}
+?>
 			</div>
 
 			<nav>
