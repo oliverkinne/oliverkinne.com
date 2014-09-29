@@ -53,8 +53,8 @@ header section nav .divider { width: 40px; color: white; }
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
-article section h1.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
-article section h1.image span {
+article section h3.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; }
+article section h3.image span {
 	position: absolute;
 	top: 0px;
 	left: 0px;
