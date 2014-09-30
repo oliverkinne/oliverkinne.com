@@ -90,18 +90,7 @@ else {
 ?>
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
 }
-?>
 
-<?php
-if ($path != "/") {
-?>
-	<style>
-article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; font-size: 1.3em; margin: 16px 0 12px 0; }
-	</style><?php
-}
-?>
-
-<?php
 switch ($path) {
 	case "/skills/":
 ?>	
@@ -132,7 +121,16 @@ ul li:before { color: #73a6fb; }
 	case "/":
 ?>
 	<style>
-article section h3.image span {
+article section p.image {
+	float: left;
+	width: 400px;
+	height: 400px;
+	padding: 0;
+	position: relative;
+	background-image: none;
+}
+
+article section p.image span {
 	position: absolute;
 	top: 0px;
 	left: 0px;

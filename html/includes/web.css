@@ -31,9 +31,9 @@ img.middle { vertical-align: text-bottom; }
 .clear { clear: both; width: 0; height: 0; overflow: hidden; }
 
 /* non displaying text =================================================== */
-article section h3.image, footer section p .button, footer section p.social a, .divider, .clear { font-size: 0; line-height: 0; text-indent: -10000px; }
-article section h3.image, article section nav a, footer section p .button, footer section p.social a { position: relative; }
-article section h3.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+article section p.image, footer section p .button, footer section p.social a, .divider, .clear { font-size: 0; line-height: 0; text-indent: -10000px; }
+article section p.image, article section nav a, footer section p .button, footer section p.social a { position: relative; }
+article section p.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /* center site ============================================= */
 header, article, footer { width: 100%; clear: both; }
@@ -52,12 +52,10 @@ header section nav .divider { width: 40px; color: white; }
 /* body ===================================================== */
 article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
 
-article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; }
-article section h2 { font-size: 1.5em; }
+article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
+article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
 article section h2, article section h2 a, article section h3, article section h3 a, article section h4, article section h4 a { font-weight: bold; }
-article section h2 { font-size: 1.4em; }
-article section h1 { margin: 22px 0 12px 0; }
-article section h2 { margin: 16px 0 12px 0; }
+article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; font-size: 1.3em; margin: 16px 0 12px 0; }
 article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
 
 article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
