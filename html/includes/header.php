@@ -46,10 +46,10 @@ switch ($path) {
 ?>During my long career in IT, I have supported multiple offices in different time zones, with several dozen staff, including home workers. I have also administered, maintained and consolidated multiple, business critical servers.<?php
 		break;
 	case "/contact/":
-?>Please contact me for further information.<?php
+?>Please contact me for further information on how I can help your business.<?php
 		break;
 	default:
-?>Oliver Kinne - Web Development / IT Consultancy<?php
+?>If you need help with your IT, websites, emails or related technologies, please feel free to contact me. I have over two decades' experience in IT and have successfully managed a large number of projects of varying sizes.<?php
 		break;
 }
 ?>" />
@@ -78,18 +78,7 @@ switch ($path) {
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 
-<?php
-if ($server == 'oliverkinne') {
-?>
-	<style><?php
-	include $_SERVER["DOCUMENT_ROOT"] . '/includes/web.css';
-?>
-	</style><?php
-}
-else {
-?>
-	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
-}
+	<link rel="stylesheet" type="text/css" href="/includes/web1.css" /><?php
 
 switch ($path) {
 	case "/skills/":
