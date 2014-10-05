@@ -14,8 +14,9 @@
 				<h2>TUI Travel PLC</h2>
 				<p class="dates">June 2014 - Present</p>
 				<p class="team">DevOps Engineer</p>
-				<p>In my current role, I am responsible for the web server infrastructure running TUI's business websites and I work closely with the Drupal development team, helping them with the deployment of new functionality and bug fixes.</p>
-				<p>I am not only responsible for monitoring and maintaining over a dozen LAMP and Microsoft web servers and their related services, but I also improve server infrastructure and consolidate servers to increase efficiency and reduce costs.</p>
+				<p>I maintain over a dozen LAMP servers and two Windows servers and am responsible for the deployment of code or configuration changes to the production environment as requested by the in-house development team, who I work with closely.</p>
+				<p>Code is version controlled and deployed using Git, with some servers using Webistrano/Capistrano to automate the deployment process. Drupal is the CMS chosen for the websites, allowing marketing teams to update content when required.</p>
+				<p>I also ensure all servers are secure and work as expected, implementing performance improvements or consolidating the infrastructure are necessary to increase efficiency and reliability.</p>
 			</aside>
 
 			<aside class="side">
