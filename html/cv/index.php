@@ -14,9 +14,9 @@
 				<h2>TUI Travel PLC</h2>
 				<p class="dates">June 2014 - Present</p>
 				<p class="team">DevOps Engineer</p>
-				<p>I maintain over a dozen LAMP servers and two Windows servers and am responsible for the deployment of code or configuration changes to the production environment as requested by the in-house development team, who I work with closely.</p>
-				<p>Code is version controlled and deployed using Git, with some servers using Webistrano/Capistrano to automate the deployment process. Drupal is the CMS chosen for the websites, allowing marketing teams to update content when required.</p>
-				<p>I also ensure all servers are secure and work as expected, implementing performance improvements or consolidating the infrastructure are necessary to increase efficiency and reliability.</p>
+				<p>I work closely with the in-house development team who use Git for version control and as a method of code and configuration deployment, as well as Webistrano/Capistrano for deployment automation. Drupal is the CMS chosen for the websites, allowing the business teams to update content when they need.</p>
+				<p>I am responsible for the deployment of code and configuration to UAT, pre-production or production servers as requested by the development team. I am also responsible for two Windows and a dozen LAMP servers, monitoring and maintaining them on a daily basis to keep them secure and running at peak performance.</p>
+				<p>As part of my role I always look for performance improvements to increase efficiency and reliability and for opportunities to consolidate the infrastructure or reduce costs.</p>
 			</aside>
 
 			<aside class="side">
