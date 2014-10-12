@@ -21,7 +21,7 @@
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JIRA, Drupal, Apache, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP</p>
+				<p>JIRA, Drupal, Apache, Xen, Zenoss, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP, CentOS, Windows Server, Confluence</p>
 			</aside>
 
 			<aside>
@@ -42,17 +42,22 @@
 
 				<h3>Recommendations</h3>
 
+				<h4><a href="http://uk.linkedin.com/pub/norah-phillips/9/478/751">Norah Phillips</a></h4>
+				<p class="dates">10 October 2014, Norah worked with Oliver at PLASA</p>
+				<p class="team">Membership Manager (EU) at PLASA</p>
+				<p>Oliver was a great asset to the PLASA team - hard working, flexible in approach and very knowledgeable. He focused on providing solutions that would be readily understood by everyone (no matter their level of expertise in a given area) which was immensely valuable.</p>
+
+				<h4><a href="http://uk.linkedin.com/pub/ruth-rossington/6/686/4b5">Ruth Rossington</a></h4>
+				<p class="dates">17 June 2013, Ruth managed Oliver at PLASA</p>
+				<p class="team">Journalist, Copywriter and Graphic Designer</p>
+				<p>Oliver is an asset to any company: he is diligent, hard-working, invests time in developing his skills and knowledge and always has the team's best interests at heart. He keeps a balanced eye on things, and importantly, a positive attitude.</p>
+
 				<h4><a href="http://uk.linkedin.com/pub/alex-dato/60/267/835">Alex Dato</a></h4>
 				<p class="dates">17 June 2013, Alex reported to Oliver at PLASA</p>
 				<p class="team">Web Development and Design</p>
 				<p>Oliver is a great manager who is apt at managing a team and complex IT projects.</p>
 				<p>He has designed and built a number of in-house systems which have boosted PLASA's revenue. He developed an online manuals system for use by exhibitors which improved the delivery of services to exhibitors at an international trade show.</p>
 				<p>Oliver has streamlined processes within PLASA and introduced a number of new technologies to the organisation such as Office 365, VPN, web servers and online exhibitor directories. He has excellent programming and problem solving skills.</p>
-
-				<h4><a href="http://uk.linkedin.com/pub/ruth-rossington/6/686/4b5">Ruth Rossington</a></h4>
-				<p class="dates">17 June 2013, Ruth managed Oliver at PLASA</p>
-				<p class="team">Journalist, Copywriter and Graphic Designer</p>
-				<p>Oliver is an asset to any company: he is diligent, hard-working, invests time in developing his skills and knowledge and always has the team's best interests at heart. He keeps a balanced eye on things, and importantly, a positive attitude.</p>
 			</aside>
 
 			<aside>
