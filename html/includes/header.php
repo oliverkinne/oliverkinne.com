@@ -5,7 +5,7 @@ $page = preg_replace('/^(index|default|home|welcome)\.(php|html|htm|asp|aspx)$/i
 $path = preg_replace('/\/[^\/]*$/', '/', $pageURL);
 $mainPath = preg_replace('/^(\/[^\/]*\/).*$/', '$1', $path);
 
-if ((empty($_SERVER['HTTPS']) && $server != 'oliverkinne') || ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $server != 'oliverkinne')) {
+if ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $server != 'oliverkinne') {
 	header('Location: http://www.oliverkinne.com' . $path . $page, true, 301);
 	die();
 }
