@@ -5,8 +5,8 @@ $page = preg_replace('/^(index|default|home|welcome)\.(php|html|htm|asp|aspx)$/i
 $path = preg_replace('/\/[^\/]*$/', '/', $pageURL);
 $mainPath = preg_replace('/^(\/[^\/]*\/).*$/', '$1', $path);
 
-if ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $server != 'oliverkinne') {
-	header('Location: http://www.oliverkinne.com' . $path . $page, true, 301);
+if ((empty($_SERVER['HTTPS']) && $server != 'oliverkinne') || ($server != 'me.oliverkinne.com' && $server != 'www.oliverkinne.com' && $server != 'oliverkinne')) {
+	header('Location: https://www.oliverkinne.com' . $path . $page, true, 301);
 	die();
 }
 ?><!doctype html>
@@ -80,6 +80,8 @@ switch ($path) {
 
 	<script type="text/javascript" async src="/includes/web.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" async src="/includes/ie8.js"></script><![endif]-->
+
+	<link rel="alternate" href="https://www.oliverkinne.com/" hreflang="en" />
 
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
 
