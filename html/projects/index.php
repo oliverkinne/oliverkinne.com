@@ -4,6 +4,24 @@
 			<h1>My Projects</h1>
 
 			<aside>
+				<h2>Zenoss to Slack WebHook</h2>
+				<p class="dates"><?php print_date_range('1 November 2014', '1 November 2014') ?></p>
+				<p class="team"></p>
+				<p>I had started using Slack to have one central feed for all alerts and notifications coming from a number of monitoring tools. Slack supports many solutions out of the box and offers the option to add your own via WebHooks.</p>
+				<p>The Slack channel was already receiving notifications from New Relic (native integration) and StatusCake (via WebHook), but I wanted to add alerts from Zenoss, which wasn't possible natively.</p>
+				<p>So I wrote a bash shell script that was called from Zenoss to call the web hook and post it a JSON message that contained the notification information from Zenoss.</p>
+				<p>It took a few hours to develop and even though it's not a perfect solution, it was easy and free to implement.</p>
+			</aside>
+
+			<aside class="side">
+				<h3>Related Skills</h3>
+				<p>Zenoss, Slack, WebHooks, DevOps</p>
+
+				<h3 class="github">Github Updates</h3>
+				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
+			</aside>
+
+			<aside>
 				<h2>Webistrano/Capistrano Xen VM Build</h2>
 				<p class="dates"><?php print_date_range('1 August 2014', '1 August 2014') ?></p>
 				<p class="team"></p>

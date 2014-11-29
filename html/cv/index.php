@@ -21,7 +21,7 @@
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JIRA, Drupal, Apache, Xen, Zenoss, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP, CentOS, Windows Server, Confluence</p>
+				<p>DevOps, JIRA, Drupal, Apache, Xen, Zenoss, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP, CentOS, Windows Server, Confluence, Webistrano, Capistrano</p>
 			</aside>
 
 			<aside>
