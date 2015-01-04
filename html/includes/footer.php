@@ -1,3 +1,12 @@
+	<div class="advert"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- oliverkinne.com leader board 728x90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9957990347412489"
+     data-ad-slot="1796970756"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
 	<footer>
 		<section>
 			<div>

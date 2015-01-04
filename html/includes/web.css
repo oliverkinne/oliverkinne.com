@@ -36,7 +36,7 @@ article section p.image, article section nav a, footer section p .button, footer
 article section p.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /* center site ============================================= */
-header, article, footer { width: 100%; clear: both; }
+header, article, footer, div.advert { width: 100%; clear: both; }
 section { margin: 0 auto 0 auto; width: 880px; }
 
 /* header ================================================== */
@@ -50,7 +50,8 @@ header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.
 header section nav .divider { width: 40px; color: white; }
 
 /* body ===================================================== */
-article { padding: 58px 0 58px 0; background-color: #eae5e5; border-bottom: 5px solid white; }
+article, div.advert { padding: 58px 0; background-color: #eae5e5; }
+div.advert { border-bottom: 5px solid white; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
 article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
@@ -86,6 +87,9 @@ article section aside p.dates { margin-bottom: 0px; color: #808080; }
 article section aside p.dates, article section aside p.team { font-size: 1.2em; }
 
 article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
+
+/* advert =================================================== */
+div.advert { text-align: center; }
 
 /* footer =================================================== */
 footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
