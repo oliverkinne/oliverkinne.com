@@ -89,7 +89,10 @@ article section aside p.dates, article section aside p.team { font-size: 1.2em; 
 article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
 
 /* advert =================================================== */
-div.advert { text-align: center; }
+div.advert div { text-align: center; padding: 0 40px; }
+.oliverkinnecom-responsive { width: 320px; height: 50px; }
+@media(min-width: 500px) { .oliverkinnecom-responsive { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .oliverkinnecom-responsive { width: 728px; height: 90px; } }
 
 /* footer =================================================== */
 footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }

@@ -1,12 +1,14 @@
-	<div class="advert"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- oliverkinne.com leader board 728x90 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+	<div class="advert">
+		<div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- oliverkinne.com responsive -->
+<ins class="adsbygoogle oliverkinnecom-responsive"
+     style="display:inline-block"
      data-ad-client="ca-pub-9957990347412489"
-     data-ad-slot="1796970756"></ins>
+     data-ad-slot="5844100353"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
+	</div>
 	<footer>
 		<section>
 			<div>
