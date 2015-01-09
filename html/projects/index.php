@@ -4,6 +4,24 @@
 			<h1>My Projects</h1>
 
 			<aside>
+				<h2>Custom Puppet modules</h2>
+				<p class="dates"><?php print_date_range('1 January 2015', null) ?></p>
+				<p class="team"></p>
+				<p>I look after about a dozen virtual servers or so, mostly Linux machines, but also some Windows servers. Currently we configure each server manually, but using Puppet will make it much easier.</p>
+				<p>I know it would have been possible to use existing, off-the-shelf modules to enforce a consistent configuration of our server infrastructure, but I wanted to have modules that were written to ensure our servers are configured in a secure way and follow the company's policy and all relevant good practice, without having to pass a large number of parameters for each node.</p>
+				<p>So writing our own set of Puppet modules was the way forward, allowing to &quot;hard code&quot; the policies into the modules, making it hard to by-pass them, while offering enough parameters to allow the right level of customization needed for different types of servers.</p>
+				<p>I also added SELinux policies for Apache to write its logs to a directory other than /var/log, rather than having to disable SELinux completely as many often do instead of trying to amend the policies.</p>
+			</aside>
+
+			<aside class="side">
+				<h3>Related Skills</h3>
+				<p>Puppet, DevOps, Apache, IIS, Github, Cloud Computing, MySQL</p>
+
+				<h3 class="github">Github Updates</h3>
+				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
+			</aside>
+
+			<aside>
 				<h2>Zenoss to Slack WebHook</h2>
 				<p class="dates"><?php print_date_range('1 November 2014', '1 November 2014') ?></p>
 				<p class="team"></p>

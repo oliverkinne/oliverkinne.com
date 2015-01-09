@@ -21,12 +21,14 @@
 				<ul>
 					<li>AgilePM</li>
 					<li>DevOps</li>
+					<li>Puppet</li>
 					<li>Apache</li>
 					<li>IIS</li>
 					<li>Webistrano</li>
 					<li>Capistrano</li>
 					<li>Github</li>
 					<li>Virtualization</li>
+					<li>Vagrant</li>
 					<li>Xen</li>
 					<li>Zenoss</li>
 					<li>Cloud Computing</li>
