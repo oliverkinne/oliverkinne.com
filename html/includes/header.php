@@ -83,7 +83,17 @@ switch ($path) {
 
 	<link rel="alternate" href="http://www.oliverkinne.com/" hreflang="en" />
 
+<?php
+if ($server == "oliverkinne") {
+?>
+	<style><?php
+	include $_SERVER['DOCUMENT_ROOT'] . '/includes/web.css';
+?></style><?php
+}
+else {
+?>
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
+}
 
 switch ($path) {
 	case "/skills/":
@@ -122,6 +132,20 @@ article section p.image {
 	padding: 0;
 	position: relative;
 	background-image: none;
+}
+
+@media only screen and (max-width: 520px) {
+	article section p.image {
+		width: 275px;
+		height: 275px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	article section p.image {
+		width: 220px;
+		height: 220px;
+	}
 }
 
 article section p.image span {
