@@ -1,4 +1,4 @@
-	<div class="advert">
+	<article class="advert">
 		<div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- oliverkinne.com responsive -->
 <ins class="adsbygoogle oliverkinnecom-responsive"
@@ -8,7 +8,7 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
-	</div>
+	</article>
 	<footer>
 		<section>
 			<div>

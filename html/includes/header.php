@@ -136,15 +136,15 @@ article section p.image {
 
 @media only screen and (max-width: 520px) {
 	article section p.image {
-		width: 275px;
-		height: 275px;
+		width: 300px;
+		height: 300px;
 	}
 }
 
 @media only screen and (max-width: 440px) {
 	article section p.image {
-		width: 220px;
-		height: 220px;
+		width: 250px;
+		height: 250px;
 	}
 }
 
