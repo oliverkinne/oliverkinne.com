@@ -525,6 +525,8 @@ function print_date_range($date1, $date2) {
 			if ($months > 1)
 				echo 's';
 		}
+		if ($years <= 0 && $months <=0)
+			echo 'less than a month';
 		echo ')';
 	}
 }
