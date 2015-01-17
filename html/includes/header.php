@@ -78,9 +78,6 @@ switch ($path) {
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 
-	<script type="text/javascript" async src="/includes/web.js"></script>
-<!--[if lt IE 9]><script type="text/javascript" async src="/includes/ie8.js"></script><![endif]-->
-
 	<link rel="alternate" href="http://www.oliverkinne.com/" hreflang="en" />
 
 <?php
@@ -134,20 +131,6 @@ article section p.image {
 	background-image: none;
 }
 
-@media only screen and (max-width: 520px) {
-	article section p.image {
-		width: 300px;
-		height: 300px;
-	}
-}
-
-@media only screen and (max-width: 440px) {
-	article section p.image {
-		width: 250px;
-		height: 250px;
-	}
-}
-
 article section p.image span {
 	position: absolute;
 	top: 0px;
@@ -190,11 +173,58 @@ article section p.image span {
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
 	<![endif]-->
 }
+
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
+article section .divider { width: 10px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span {
+	<!--[if lt IE 9]>
+	/* use scaled background image for rounded corners in IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
+	<![endif]-->
+}
+
+@media only screen and (max-width: 905px) {
+	article section nav { padding: 0 0 0 49px; }
+	article section .divider { width: 7px; }
+	article section nav a { font-size: 1.1em; width: 55px; height: 53px; padding: 40px 20px 0 18px; }
+}
+
+@media only screen and (max-width: 520px) {
+	article section p.image {
+		width: 300px;
+		height: 300px;
+	}
+
+	article section nav { padding-left: 49px; height: 63px; }
+	article section .divider { width: 5px; }
+	article section nav a { font-size: 0.9em; width: 51px; height: 37px; padding: 26px 6px 0 6px; }
+}
+
+@media only screen and (max-width: 440px) {
+	article section p.image {
+		margin-left: 20px;
+		width: 250px;
+		height: 250px;
+	}
+}
 	</style>
 <?php
 		break;
 }
 ?>
+
+	<script type="text/javascript" async src="/includes/web.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" async src="/includes/ie8.js"></script><![endif]-->
 </head>
 
 <body>

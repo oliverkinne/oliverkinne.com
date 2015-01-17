@@ -41,7 +41,7 @@ section { margin: 0 auto 0 auto; width: 880px; }
 
 /* header ================================================== */
 header { border-top: 14px solid #606060; padding-top: 37px; }
-header section div { float: left; margin: 0 0 36px 60px; width: 377px; }
+header section div { float: left; margin: 0 0 36px 60px; width: 300px; }
 header section div h1 a, p.h1 a { font-size: 3.9em; font-weight: bold; }
 header section div h2 a, p.h2 a { font-size: 1.5em; }
 
@@ -58,25 +58,6 @@ article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
 article section h2, article section h2 a, article section h3, article section h3 a, article section h4, article section h4 a { font-weight: bold; }
 article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; font-size: 1.3em; margin: 16px 0 12px 0; }
 article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
-
-article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
-article section .divider { width: 10px; color: #eae5e5; }
-article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
-article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
-article section nav a.skills { background-color: #ff0; }
-article section nav a.skills:hover { background-color: #a25c28; }
-article section nav a.projects { background-color: #3fe534; }
-article section nav a.projects:hover { background-color: #3d8738; }
-article section nav a.resume { background-color: #73a6fb; }
-article section nav a.resume:hover { background-color: #3a5a8e; }
-article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
-article section nav a span {
-	<!--[if lt IE 9]>
-	/* use scaled background image for rounded corners in IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
-	<![endif]-->
-}
 
 article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
 article section aside.wide { width: 800px; }
@@ -130,10 +111,6 @@ footer section p.ipv6 a:hover { border: none; }
 	article section h1.image { width: 112px; height: 112px; }
 	article section h2, article section h3, article section h4 { margin-top: 0; }
 
-	article section nav { padding: 0 0 0 25px; }
-	article section .divider { width: 7px; }
-	article section nav a { font-size: 1.1em; width: 55px; height: 62px; padding: 31px 20px 0 18px; }
-
 	article section aside, article section aside.home { padding: 14px 0 0 12px; float: none; clear: left; }
 	article section aside.wide, article section aside.side { width: 400px; }
 
@@ -153,10 +130,6 @@ footer section p.ipv6 a:hover { border: none; }
 
 	/* body ===================================================== */
 	article section h1.image { width: 72px; height: 72px; }
-
-	article section nav { padding-left: 17px; height: 63px; }
-	article section .divider { width: 5px; }
-	article section nav a { font-size: 0.9em; width: 51px; height: 45px; padding: 18px 6px 0 6px; }
 
 	article section aside { padding-top: 18px; }
 	article section aside, article section aside.wide, article section aside.side { width: 280px; }
