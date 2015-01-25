@@ -1,6 +1,5 @@
 	<article class="advert">
 		<div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- oliverkinne.com responsive -->
 <ins class="adsbygoogle oliverkinnecom-responsive"
      style="display:inline-block"
      data-ad-client="ca-pub-9957990347412489"

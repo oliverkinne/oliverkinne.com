@@ -72,8 +72,19 @@ article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hi
 /* advert =================================================== */
 .advert div { text-align: center; padding: 0 40px; overflow: hidden; }
 .oliverkinnecom-responsive { width: 150px; height: 150px; }
-@media(min-width: 500px) { .oliverkinnecom-responsive { width: 468px; height: 60px; } }
-@media(min-width: 800px) { .oliverkinnecom-responsive { width: 728px; height: 90px; } }
+@media(min-width: 400px) {
+	.oliverkinnecom-responsive, span.adslot a { width: 300px; height: 250px; }
+	span.adslot img { display: none; }
+	span.adslot a { display: inline-block; background-image: url("https://www.statuscake.com/App/Banners/300x250.png"); }
+}
+@media(min-width: 540px) {
+	.oliverkinnecom-responsive, span.adslot a { width: 468px; height: 60px; }
+	span.adslot a { background-image: url("https://www.statuscake.com/App/Banners/468x60.png"); }
+}
+@media(min-width: 800px) {
+	.oliverkinnecom-responsive, span.adslot a { width: 728px; height: 90px; }
+	span.adslot a { background-image: url("https://www.statuscake.com/App/Banners/728x90.png"); }
+}
 
 /* footer =================================================== */
 footer { padding: 53px 0 36px 0; background-color: #606060; border-bottom: 30px solid #404040; }
