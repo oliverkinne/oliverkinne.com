@@ -47,11 +47,11 @@ header section div h2 a, p.h2 a { font-size: 1.5em; }
 
 /* navigation ============================================== */
 header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
-header section nav .divider { width: 40px; color: white; }
+header section nav .divider { width: 40px; color: #fff; }
 
 /* body ===================================================== */
 article, .advert { padding: 58px 0; background-color: #eae5e5; }
-.advert { border-bottom: 5px solid white; }
+.advert { border-bottom: 5px solid #fff; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
 article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
@@ -148,4 +148,123 @@ footer section p.ipv6 a:hover { border: none; }
 	/* footer =================================================== */
 	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
 	footer section p.ipv6 { width: 50px; }
+}
+
+/* homepage ======================================= */
+article section p.image {
+	float: left;
+	width: 400px;
+	height: 400px;
+	padding: 0;
+	position: relative;
+	background-image: none;
+}
+
+article section p.image span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url('/img/Oliver-Kinne.jpg');
+	background-size: cover;
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span1 {
+	z-index: 10;
+	display: none;
+	background-image: url('/img/Oliver-Kinne1.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span2 {
+	z-index: 11;
+	display: none;
+	background-image: url('/img/Oliver-Kinne2.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+#span3 {
+	z-index: 12;
+	display: none;
+	background-image: url('/img/Oliver-Kinne3.jpg');
+	<!--[if lt IE 9]>
+	/* background image resize fix for IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
+	<![endif]-->
+}
+
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
+article section .divider { width: 10px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span {
+	<!--[if lt IE 9]>
+	/* use scaled background image for rounded corners in IE8 and before */
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
+	<![endif]-->
+}
+
+@media only screen and (max-width: 905px) {
+	article section nav { padding: 0 0 0 49px; }
+	article section .divider { width: 7px; }
+	article section nav a { font-size: 1.1em; width: 55px; height: 53px; padding: 40px 20px 0 18px; }
+}
+
+@media only screen and (max-width: 520px) {
+	article section p.image {
+		width: 300px;
+		height: 300px;
+	}
+
+	article section nav { padding-left: 49px; height: 63px; }
+	article section .divider { width: 5px; }
+	article section nav a { font-size: 0.9em; width: 51px; height: 37px; padding: 26px 6px 0 6px; }
+}
+
+@media only screen and (max-width: 440px) {
+	article section p.image {
+		margin-left: 20px;
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media print {
+	header section nav, .advert {
+		display: none;
+	}
+	header, footer {
+		border-top: 1px solid #000;
+	}
+	article, footer {
+		background-color: #fff;
+	}
+	footer {
+		border-bottom: 0;
+	}
+	footer section p, footer section p a {
+		color: #000;
+	}
+	footer section .github span, footer section .spiceworks span, footer section .linkedin span {
+		filter: invert(100%);
+		-webkit-filter: invert(100%);
+	}
 }

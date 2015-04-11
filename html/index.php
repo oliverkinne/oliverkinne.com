@@ -4,36 +4,6 @@
 		<section>
 			<p class="image"><span></span>Welcome</p>
 
-			<script type="text/javascript">
-var delay = 10000;
-var fade = 3000;
-
-$(document).ready(function() {
-	$('article section p.image span').after('<span id="span1"></span><span id="span2"></span><span id="span3"></span>');
-	span();
-});
-
-function span() {
-	$('article section p.image span:first').delay(delay).fadeOut(fade, span1);
-	$('#span1').delay(delay).fadeIn(fade);
-}
-
-function span1() {
-	$('#span1').delay(delay).fadeOut(fade, span2);
-	$('#span2').delay(delay).fadeIn(fade);
-}
-
-function span2() {
-	$('#span2').delay(delay).fadeOut(fade, span3);
-	$('#span3').delay(delay).fadeIn(fade);
-}
-
-function span3() {
-	$('#span3').delay(delay).fadeOut(fade, span);
-	$('article section p.image span:first').delay(delay).fadeIn(fade);
-}
-			</script>
-
 			<aside style="clear: none; float: left">
 				<p>I have over two decades' experience in IT, covering DevOps, infrastructure management, IT support, software and web development, email marketing, CMS, CRM, cloud services, databases, servers, networking, security and many related technologies.</p>
 				<p>I deliver high quality work and have successfully managed numerous projects of varying size for a number of clients.</p>
