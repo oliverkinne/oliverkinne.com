@@ -1,6 +1,6 @@
 /* reset =================================================== */
 * { margin: 0; padding: 0; }
-html { overflow-y: scroll; }
+html { overflow-y: scroll; background-color: #fff; }
 body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
 a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
 ol, ul { margin: 0; padding: 0; }

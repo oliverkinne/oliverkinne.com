@@ -27,8 +27,8 @@
 		</section>
 	</footer>
 
-	<script type="text/javascript" src="/includes/web.js"></script>
-<!--[if lt IE 9]><script type="text/javascript" src="/includes/ie8.js"></script><![endif]-->
+	<script type="text/javascript" async src="/includes/web.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" async src="/includes/ie8.js"></script><![endif]-->
 
 </body>
 
