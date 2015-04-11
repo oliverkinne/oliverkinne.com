@@ -10,12 +10,14 @@
 	</article>
 	<footer>
 		<section>
-			<div>
+			<div itemscope itemtype="http://schema.org/Person">
+				<p style="display: none" itemprop="name">Oliver Kinne</p>
+
 				<p class="tel"><span class="button tel"><span></span>Phone</span> <strong>Call</strong><br />
-					M: <a class="tel" href="tel:+447773278142">07773 278 142</a></p>
-	
+					M: <a class="tel" href="tel:+447773278142" itemprop="tel">07773 278 142</a></p>
+
 				<p class="email"><span class="button email"><span></span>Email</span> <strong>Email</strong><br />
-					<a href="mailto:me@oliverkinne.com">me@oliverkinne.com</a></p>
+					<a href="mailto:me@oliverkinne.com" itemprop="email">me@oliverkinne.com</a></p>
 	
 				<p class="social"><span class="button social"><span></span>Social</span> <strong>Follow Me</strong><br />
 					<a class="linkedin" href="http://uk.linkedin.com/in/oliverkinne"><span></span>LinkedIn</a> <a class="spiceworks" href="http://community.spiceworks.com/people/oliverkinne/"><span></span>Spiceworks</a> <a class="github" href="https://github.com/oliverkinne"><span></span>GitHub</a></p>
