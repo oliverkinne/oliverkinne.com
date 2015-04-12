@@ -14,6 +14,7 @@ img { display: inline-block; }
 article, aside, details, footer, header, nav, section { display: block; }
 
 /* global styles ========================================================= */
+.hidden { display: none; }
 a:hover, p.h1 a, p.h2 a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
 p.h1 a:hover, p.h2 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { border-bottom: 1px solid #606060; }
 nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
@@ -107,6 +108,27 @@ footer section .linkedin span { background: url('/img/linkedin.png'); }
 footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
 footer section p.ipv6 a:hover { border: none; }
 
+/* homepage ======================================= */
+article section p.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; background-image: none; }
+
+article section p.image span { position: absolute; top: 0px; left: 0px; background-image: url('/img/Oliver-Kinne.jpg'); background-size: cover; <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')"; <![endif]--> }
+#span1 { z-index: 10; display: none; background-image: url('/img/Oliver-Kinne1.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";<![endif]--> }
+#span2 { z-index: 11; display: none; background-image: url('/img/Oliver-Kinne2.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";<![endif]--> }
+#span3 { z-index: 12; display: none; background-image: url('/img/Oliver-Kinne3.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";<![endif]--> }
+
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
+article section .divider { width: 10px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span { <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";<![endif]--> }
+
 /* media queries =================================================== */
 @media only screen and (max-width: 905px) {
 	section { width: 450px; }
@@ -150,78 +172,6 @@ footer section p.ipv6 a:hover { border: none; }
 	footer section p.ipv6 { width: 50px; }
 }
 
-/* homepage ======================================= */
-article section p.image {
-	float: left;
-	width: 400px;
-	height: 400px;
-	padding: 0;
-	position: relative;
-	background-image: none;
-}
-
-article section p.image span {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background-image: url('/img/Oliver-Kinne.jpg');
-	background-size: cover;
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span1 {
-	z-index: 10;
-	display: none;
-	background-image: url('/img/Oliver-Kinne1.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span2 {
-	z-index: 11;
-	display: none;
-	background-image: url('/img/Oliver-Kinne2.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-#span3 {
-	z-index: 12;
-	display: none;
-	background-image: url('/img/Oliver-Kinne3.jpg');
-	<!--[if lt IE 9]>
-	/* background image resize fix for IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";
-	<![endif]-->
-}
-
-article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
-article section .divider { width: 10px; color: #eae5e5; }
-article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
-article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
-article section nav a.skills { background-color: #ff0; }
-article section nav a.skills:hover { background-color: #a25c28; }
-article section nav a.projects { background-color: #3fe534; }
-article section nav a.projects:hover { background-color: #3d8738; }
-article section nav a.resume { background-color: #73a6fb; }
-article section nav a.resume:hover { background-color: #3a5a8e; }
-article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
-article section nav a span {
-	<!--[if lt IE 9]>
-	/* use scaled background image for rounded corners in IE8 and before */
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";
-	<![endif]-->
-}
-
 @media only screen and (max-width: 905px) {
 	article section nav { padding: 0 0 0 49px; }
 	article section .divider { width: 7px; }
@@ -229,42 +179,21 @@ article section nav a span {
 }
 
 @media only screen and (max-width: 520px) {
-	article section p.image {
-		width: 300px;
-		height: 300px;
-	}
-
+	article section p.image { width: 300px; height: 300px; }
 	article section nav { padding-left: 49px; height: 63px; }
 	article section .divider { width: 5px; }
 	article section nav a { font-size: 0.9em; width: 51px; height: 37px; padding: 26px 6px 0 6px; }
 }
 
 @media only screen and (max-width: 440px) {
-	article section p.image {
-		margin-left: 20px;
-		width: 250px;
-		height: 250px;
-	}
+	article section p.image { margin-left: 20px; width: 250px; height: 250px; }
 }
 
 @media print {
-	header section nav, .advert {
-		display: none;
-	}
-	header, footer {
-		border-top: 1px solid #000;
-	}
-	article, footer {
-		background-color: #fff;
-	}
-	footer {
-		border-bottom: 0;
-	}
-	footer section p, footer section p a {
-		color: #000;
-	}
-	footer section .github span, footer section .spiceworks span, footer section .linkedin span {
-		filter: invert(100%);
-		-webkit-filter: invert(100%);
-	}
+	header section nav, .advert { display: none; }
+	header, footer { border-top: 1px solid #000; }
+	article, footer { background-color: #fff; }
+	footer { border-bottom: 0; }
+	footer section p, footer section p a { color: #000; }
+	footer section .github span, footer section .spiceworks span, footer section .linkedin span { filter: invert(100%); -webkit-filter: invert(100%); }
 }

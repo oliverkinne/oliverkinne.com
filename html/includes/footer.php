@@ -11,13 +11,13 @@
 	<footer>
 		<section>
 			<div itemscope itemtype="http://schema.org/Person">
-				<p style="display: none" itemprop="name">Oliver Kinne</p>
+				<p class="hidden"><span itemprop="name">Oliver Kinne</span>, <span itemprop="jobTitle">IT Consultant</span></p>
 
 				<p class="tel"><span class="button tel"><span></span>Phone</span> <strong>Call</strong><br />
-					M: <a class="tel" href="tel:+447773278142" itemprop="tel">07773 278 142</a></p>
+					M: <a class="tel" href="tel:+447773278142"><span itemprop="tel">07773 278 142</span></a></p>
 
 				<p class="email"><span class="button email"><span></span>Email</span> <strong>Email</strong><br />
-					<a href="mailto:me@oliverkinne.com" itemprop="email">me@oliverkinne.com</a></p>
+					<a href="mailto:me@oliverkinne.com"><span itemprop="email">me@oliverkinne.com</span></a></p>
 	
 				<p class="social"><span class="button social"><span></span>Social</span> <strong>Follow Me</strong><br />
 					<a class="linkedin" href="http://uk.linkedin.com/in/oliverkinne"><span></span>LinkedIn</a> <a class="spiceworks" href="http://community.spiceworks.com/people/oliverkinne/"><span></span>Spiceworks</a> <a class="github" href="https://github.com/oliverkinne"><span></span>GitHub</a></p>
@@ -29,8 +29,8 @@
 		</section>
 	</footer>
 
-	<script type="text/javascript" async src="/includes/web.js"></script>
-<!--[if lt IE 9]><script type="text/javascript" async src="/includes/ie8.js"></script><![endif]-->
+	<script type="text/javascript" src="/includes/web.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/includes/ie8.js"></script><![endif]-->
 
 </body>
 
