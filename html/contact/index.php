@@ -2,6 +2,7 @@
 
 	<article>
 		<section>
+			<div class="addthis_sharing_toolbox"></div>
 			<h1>Contact Me</h1>
 
 			<aside>

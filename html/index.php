@@ -5,7 +5,7 @@
 			<p class="image"><span></span>Welcome</p>
 
 			<aside style="clear: none; float: left">
-				<div class="addthis_custom_sharing"></div>
+				<div class="addthis_sharing_toolbox" style="float: none; margin-bottom: 20px"></div>
 				<p>I have over two decades' experience in IT, covering DevOps, infrastructure management, IT support, software and web development, email marketing, CMS, CRM, cloud services, databases, servers, networking, security and many related technologies.</p>
 				<p>I deliver high quality work and have successfully managed numerous projects of varying size for a number of clients.</p>
 			</aside>

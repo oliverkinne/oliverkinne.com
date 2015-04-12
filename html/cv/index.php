@@ -1,6 +1,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php' ?>
 	<article>
 		<section>
+			<div class="addthis_sharing_toolbox"></div>
 			<h1>My CV</h1>
 
 			<aside>

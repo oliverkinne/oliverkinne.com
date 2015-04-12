@@ -42,7 +42,7 @@ section { margin: 0 auto 0 auto; width: 880px; }
 
 /* header ================================================== */
 header { border-top: 14px solid #606060; padding-top: 37px; }
-header section div { float: left; margin: 0 0 36px 60px; width: 300px; }
+header section div { float: left; margin: 0 50px 36px 60px; width: 300px; }
 header section div h1 a, p.h1 a { font-size: 3.9em; font-weight: bold; }
 header section div h2 a, p.h2 a { font-size: 1.5em; }
 
@@ -53,6 +53,8 @@ header section nav .divider { width: 40px; color: #fff; }
 /* body ===================================================== */
 article, .advert { padding: 58px 0; background-color: #eae5e5; }
 .advert { border-bottom: 5px solid #fff; }
+
+article section .addthis_sharing_toolbox { float: right; margin-right: 80px; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
 article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
@@ -166,6 +168,8 @@ article section nav a span { <!--[if lt IE 9]>filter: progid:DXImageTransform.Mi
 }
 
 @media only screen and (max-width: 520px) {
+	article section .addthis_sharing_toolbox { margin-right: 0; width: 20%; }
+
 	article section p.image { width: 300px; height: 300px; }
 	article section nav { padding-left: 49px; height: 63px; }
 	article section .divider { width: 5px; }
