@@ -29,8 +29,9 @@
 		</section>
 	</footer>
 
-	<script type="text/javascript" src="/includes/web.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="/includes/ie8.js"></script><![endif]-->
+	<script type="text/javascript" src="/includes/web.js"></script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552abec32c4029d3" async="async"></script>
 
 </body>
 
