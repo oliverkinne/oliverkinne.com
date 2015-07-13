@@ -78,7 +78,7 @@ switch ($path) {
 	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 
-	<link rel="alternate" href="http://www.oliverkinne.com/" hreflang="en" />
+	<link rel="alternate" href="http://www.oliverkinne.com<?php echo $path . $page ?>" hreflang="en" />
 
 <?php
 if ($server == "oliverkinne") {
