@@ -6,8 +6,9 @@ a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-h
 ol, ul { margin: 0; padding: 0; }
 ol { list-style: decimal; }
 ul { list-style: none; }
-ol li, ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
-ul li { padding-left: 11px; text-indent: -11px; }
+ol li { margin: 0 0 0 30px; padding: 0 0 0 5px; }
+ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
+ol li ul li { padding-left: 11px; text-indent: -11px; }
 ul li:before { content: "• "; color: #606060; font-size: 1.3em; display: inline-block; width: 10px; }
 a, img { outline: none; border: none; }
 img { display: inline-block; }
@@ -42,19 +43,20 @@ section { margin: 0 auto 0 auto; width: 880px; }
 
 /* header ================================================== */
 header { border-top: 14px solid #606060; padding-top: 37px; }
-header section div { float: left; margin: 0 50px 36px 60px; width: 300px; }
+header section div { float: left; margin: 0 80px 36px 60px; width: 300px; }
 header section div h1 a, p.h1 a { font-size: 3.9em; font-weight: bold; }
 header section div h2 a, p.h2 a { font-size: 1.5em; }
 
 /* navigation ============================================== */
-header section nav { float: left; padding-top: 48px; width: 443px; font-size: 1.2em; }
+header section nav { float: left; padding-top: 48px; width: 433px; font-size: 1.2em; }
 header section nav .divider { width: 40px; color: #fff; }
 
 /* body ===================================================== */
 article, .advert { padding: 58px 0; background-color: #eae5e5; }
 .advert { border-bottom: 5px solid #fff; }
 
-article section .addthis_sharing_toolbox { float: right; margin-right: 80px; }
+article section .addthis_sharing_toolbox { float: right; margin-right: 80px; height: 15px; }
+article section .addthis_sharing_toolbox.homepage { float: none; margin-bottom: 20px; }
 
 article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
 article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
@@ -65,7 +67,7 @@ article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
 article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
 article section aside.wide { width: 800px; }
 article section aside.side { clear: none; width: 334px; }
-article section aside p { margin-bottom: 14px; }
+article section aside p, article section aside ol { margin-bottom: 14px; }
 article section aside p, article section aside li { font-size: 1.2em; line-height: 1.5em; }
 article section aside p.dates { margin-bottom: 0px; color: #808080; }
 article section aside p.dates, article section aside p.team { font-size: 1.2em; }
@@ -169,6 +171,7 @@ article section nav a span { <!--[if lt IE 9]>filter: progid:DXImageTransform.Mi
 
 @media only screen and (max-width: 520px) {
 	article section .addthis_sharing_toolbox { margin-right: 0; width: 20%; }
+	article section .addthis_sharing_toolbox.homepage { width: 100%; }
 
 	article section p.image { width: 300px; height: 300px; }
 	article section nav { padding-left: 49px; height: 63px; }
@@ -186,10 +189,12 @@ article section nav a span { <!--[if lt IE 9]>filter: progid:DXImageTransform.Mi
 	span.adslot img { display: none; }
 	span.adslot a { display: inline-block; background-image: url("https://www.statuscake.com/App/Banners/300x250.png"); }
 }
+
 @media(min-width: 540px) {
 	.oliverkinnecom-responsive, span.adslot a { width: 468px; height: 60px; }
 	span.adslot a { background-image: url("https://www.statuscake.com/App/Banners/468x60.png"); }
 }
+
 @media(min-width: 800px) {
 	.oliverkinnecom-responsive, span.adslot a { width: 728px; height: 90px; }
 	span.adslot a { background-image: url("https://www.statuscake.com/App/Banners/728x90.png"); }

@@ -5,6 +5,11 @@
 			<h1>My Projects</h1>
 
 			<aside>
+				<p>I have over two decades' experience in IT, covering DevOps, infrastructure management, IT support, software and web development, email marketing, CMS, CRM, cloud services, databases, servers, networking, security and many related technologies.</p>
+				<p>Below is a selection of projects that illustrate my experience.</p>
+			</aside>
+
+			<aside>
 				<h2>Custom Puppet modules</h2>
 				<p class="dates"><?php print_date_range('1 January 2015', null) ?></p>
 				<p class="team"></p>
