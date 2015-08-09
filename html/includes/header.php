@@ -111,7 +111,7 @@ else {
 	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
 }
 
-switch ($path) {
+switch ($mainPath) {
 	case "/blog/":
 ?>	
 	<style>
@@ -223,12 +223,7 @@ function load_blog_feed() {
 		$article = $feed->entry[$item]->content;
 
 		// fix Blogger tagging
-		if (strpos($article, '<div>') !== false) {
-			$article = preg_replace('/<p>(|[ \t]?<br ?\/?>|&nbsp;)<\/p>/i', '', str_replace('</div>', "</p>\n", str_replace('<div>', '<p>', $article)));
-		}
-		else {
-			$article = '<p>' . str_replace('<br />', "</p>\n<p>", str_replace('<br /><br />', '<br />', str_replace('</ol>', "</ol>\n<p>", $article))) . "</p>\n";
-		}
+		$article = preg_replace('/<p><\/p>\n|<p><\/p>$/i', '', preg_replace('/<p>(<(h[1234]|ol|ul|td|table)[^>]*>)/i', '${1}', preg_replace('/(<\/(h[1234]|ol|ul|td|table)>)<\/p>/i', '${1}', preg_replace('/\x0A/', "</p>\n<p>", preg_replace('/\x0D/', '', '<p>' . preg_replace('/<\/?(div|p)[^>]*>/i', '', preg_replace('/(<(h[1234]|p|ol|ul|td|table)[^>]*>)/i', "\n" . '${1}', preg_replace('/(<\/(h[1234]|p|ol|ul|td|table)[^>]*>)/i', '${1}' . "\n", preg_replace('/<br *\/?>/i', "\n", preg_replace('/[\x0A\x0D]*/', '', $article))))) . '</p>')))));
 
 		// fix relative links
 		$article = preg_replace('/(href=\")https?:\/\/([^.]*\/\")/i', '${1}/${2}', $article);
