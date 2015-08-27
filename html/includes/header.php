@@ -108,37 +108,200 @@ if ($server == "oliverkinne") {
 }
 else {
 ?>
-	<link rel="stylesheet" type="text/css" href="/includes/web.css" /><?php
+	<link rel="stylesheet" type="text/css" href="/includes/web.css" />
+<?php
 }
+?>
+	<style>
+/* reset =================================================== */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll; background-color: #fff; }
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 62.5%; }
+a, p, h1, h2, h3, h4, h5, h6, input, select, th, td, li { font-size: 1em; line-height: 1.2em; font-weight: normal; color: #606060; }
+ol, ul { margin: 0; padding: 0; }
+ol { list-style: decimal; }
+ul { list-style: none; }
+ol li { margin: 0 0 0 30px; padding: 0 0 0 5px; }
+ul li { margin: 0 0 0 15px; padding: 0 0 0 5px; }
+ol li ul li { padding-left: 11px; text-indent: -11px; }
+ul li:before { content: "• "; color: #606060; font-size: 1.3em; display: inline-block; width: 10px; }
+a, img { outline: none; border: none; }
+img { display: inline-block; }
+article, aside, details, footer, header, nav, section { display: block; }
 
+/* global styles ========================================================= */
+.hidden { display: none; }
+a:hover, p.h1 a, p.h2 a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, nav a, footer section a, a.tel { text-decoration: none; }
+p.h1 a:hover, p.h2 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { border-bottom: 1px solid #606060; }
+nav a:hover, footer section a:hover { border-bottom: 1px solid #eae5e5; color: #eae5e5; }
+a.tel:hover, p.social a:hover { border: none; }
+footer a.tel:hover, p.social a:hover { color: #fff; }
+a.tel:hover { cursor: text; }
+a:hover img { opacity: 0.6; filter: alpha(opacity=60); }
+nav a, span.selected { text-transform: uppercase; }
+span.selected { color: #bababa; }
+
+img.middle { vertical-align: text-bottom; }
+
+.divider { display: inline-block; overflow: hidden; }
+
+.clear { clear: both; width: 0; height: 0; overflow: hidden; }
+
+/* non displaying text =================================================== */
+article section p.image, footer section p .button, footer section p.social a, .divider, .clear { font-size: 0; line-height: 0; text-indent: -10000px; }
+article section p.image, article section nav a, footer section p .button, footer section p.social a { position: relative; }
+article section p.image span, article section nav a span, footer section p .button span, footer section p.social a span { background-position: 0 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* center site ============================================= */
+header, article, footer, .advert { width: 100%; clear: both; }
+section { margin: 0 auto 0 auto; width: 880px; }
+
+/* header ================================================== */
+header { border-top: 14px solid #606060; padding-top: 37px; }
+header section div { float: left; margin: 0 80px 36px 60px; width: 300px; }
+header section div h1 a, p.h1 a { font-size: 3.9em; font-weight: bold; }
+header section div h2 a, p.h2 a { font-size: 1.5em; }
+
+/* navigation ============================================== */
+header section nav { float: left; padding-top: 48px; width: 433px; font-size: 1.2em; }
+header section nav .divider { width: 40px; color: #fff; }
+
+/* body ===================================================== */
+article, .advert { padding: 58px 0; background-color: #eae5e5; }
+.advert { border-bottom: 5px solid #fff; }
+
+article section .addthis_sharing_toolbox { float: right; margin-right: 80px; height: 15px; }
+article section .addthis_sharing_toolbox.homepage { float: none; margin-bottom: 20px; }
+
+article section h1 { font-size: 2.5em; font-weight: bold; padding: 0 0 41px 54px; margin: 22px 0 12px 0; }
+article section h2 { margin: 16px 0 12px 0; font-size: 1.4em; }
+article section h2, article section h2 a, article section h3, article section h3 a, article section h4, article section h4 a { font-weight: bold; }
+article section h3 { background: url('/img/bullets.png') top left no-repeat; padding-left: 26px; min-height: 16px; font-size: 1.3em; margin: 16px 0 12px 0; }
+article section h4, article section h4 a { font-size: 1.1em; color: #808080; }
+
+article section aside { clear: left; float: left; padding-left: 66px; width: 400px; }
+article section aside.wide { width: 800px; }
+article section aside.side { clear: none; width: 334px; }
+article section aside p, article section aside ol { margin-bottom: 14px; }
+article section aside p, article section aside li { font-size: 1.2em; line-height: 1.5em; }
+article section aside p.dates { margin-bottom: 0px; color: #808080; }
+article section aside p.dates, article section aside p.team { font-size: 1.2em; }
+
+article section aside div.scroll { height: 163px; overflow: auto; overflow-x: hidden; overflow-y: auto; padding-right: 10px; }
+
+<?php
 switch ($mainPath) {
+	case "/":
+?>
+/* homepage ======================================= */
+article section p.image { float: left; width: 400px; height: 400px; padding: 0; position: relative; background-image: none; }
+
+article section p.image span { position: absolute; top: 0px; left: 0px; background-image: url('/img/Oliver-Kinne.jpg'); background-size: cover; <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne.jpg', sizingMethod='scale')"; <![endif]--> }
+#span1 { z-index: 10; display: none; background-image: url('/img/Oliver-Kinne1.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne1.jpg', sizingMethod='scale')";<![endif]--> }
+#span2 { z-index: 11; display: none; background-image: url('/img/Oliver-Kinne2.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne2.jpg', sizingMethod='scale')";<![endif]--> }
+#span3 { z-index: 12; display: none; background-image: url('/img/Oliver-Kinne3.jpg'); <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/Oliver-Kinne3.jpg', sizingMethod='scale')";<![endif]--> }
+
+article section nav { clear: none; float: left; padding: 46px 0 0 33px; }
+article section .divider { width: 10px; color: #eae5e5; }
+article section nav a { display: inline-block; width: 132px; height: 72px; font-size: 1.2em; text-align: center; padding-top: 60px; vertical-align: top; }
+article section nav a:hover { border: none; -webkit-transition: color .25s linear; transition: color .25s linear; transition: background-color .25s linear; }
+article section nav a.skills { background-color: #ff0; }
+article section nav a.skills:hover { background-color: #a25c28; }
+article section nav a.projects { background-color: #3fe534; }
+article section nav a.projects:hover { background-color: #3d8738; }
+article section nav a.resume { background-color: #73a6fb; }
+article section nav a.resume:hover { background-color: #3a5a8e; }
+article section nav a { -moz-border-radius: 66px; border-radius: 66px; }
+article section nav a span { <!--[if lt IE 9]>filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/circle.png', sizingMethod='scale')";<![endif]--> }
+
+<?php
+		break;
+
 	case "/blog/":
 ?>	
-	<style>
 article section h3 { background-position: 0 -16px; }
 ul li:before { color: #ff0; }
-	</style>
 <?php
 		break;
 
 	case "/projects/":
 ?>	
-	<style>
 article section h3 { background-position: 0 -32px; }
 ul li:before { color: #3fe534; }
-	</style>
 <?php
 		break;
 
 	case "/cv/":
 ?>	
-	<style>
 ul li:before { color: #73a6fb; }
-	</style>
 <?php
 		break;
 }
 ?>
+
+/* media queries =================================================== */
+@media only screen and (max-width: 905px) {
+	section { width: 450px; }
+
+	/* header ================================================== */
+	header section div { margin: 0; }
+
+	/* navigation ============================================== */
+	header section nav { padding: 32px 0 27px 0; }
+
+	/* body ===================================================== */
+	article section h1 { padding-left: 0; }
+	article section h1.image { width: 112px; height: 112px; }
+	article section h2, article section h3, article section h4 { margin-top: 0; }
+
+	article section aside, article section aside.home { padding: 14px 0 0 12px; float: none; clear: left; }
+	article section aside.wide, article section aside.side { width: 400px; }
+
+	/* footer =================================================== */
+	footer section div { margin-left: 0; }
+	footer section p { height: 62px; }
+	footer section p.tel, footer section p.social { width: 215px; padding-right: 22px; }
+	footer section p.email { width: 207px; padding-right: 0; }
+}
+
+@media only screen and (max-width: 520px) {
+	section { width: 300px; }
+
+	/* navigation ============================================== */
+	header section nav { width: 300px; font-size: 1.1em; }
+	header section nav .divider { width: 11px; }
+
+	/* body ===================================================== */
+	article section h1.image { width: 72px; height: 72px; }
+
+	article section aside { padding-top: 18px; }
+	article section aside, article section aside.wide, article section aside.side { width: 280px; }
+
+	/* footer =================================================== */
+	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
+	footer section p.ipv6 { width: 50px; }
+}
+
+@media only screen and (max-width: 905px) {
+	article section nav { padding: 0 0 0 49px; }
+	article section .divider { width: 7px; }
+	article section nav a { font-size: 1.1em; width: 55px; height: 53px; padding: 40px 20px 0 18px; }
+}
+
+@media only screen and (max-width: 520px) {
+	article section .addthis_sharing_toolbox { margin-right: 0; width: 20%; }
+	article section .addthis_sharing_toolbox.homepage { width: 100%; }
+
+	article section p.image { width: 300px; height: 300px; }
+	article section nav { padding-left: 49px; height: 63px; }
+	article section .divider { width: 5px; }
+	article section nav a { font-size: 0.9em; width: 51px; height: 37px; padding: 26px 6px 0 6px; }
+}
+
+@media only screen and (max-width: 440px) {
+	article section p.image { margin-left: 20px; width: 250px; height: 250px; }
+}
+	</style>
 </head>
 
 <body>
