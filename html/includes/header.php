@@ -242,7 +242,7 @@ footer section p .button.email span { background: url('/img/email.png'); }
 footer section p .button.social span { background: url('/img/social.png'); }
 
 footer section p.social { width: 177px; }
-footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 6px 0 0; }
+footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 10px 0 0; }
 footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
 footer section .github span { background: url('/img/github.png'); }
 footer section .spiceworks span { background: url('/img/spiceworks.png'); }
