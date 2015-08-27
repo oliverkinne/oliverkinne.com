@@ -99,19 +99,6 @@ switch ($mainPath) {
 
 	<link rel="alternate" href="http://www.oliverkinne.com<?php echo $path . $page ?>" hreflang="en" />
 
-<?php
-if ($server == "oliverkinne") {
-?>
-	<style><?php
-	include $_SERVER['DOCUMENT_ROOT'] . '/includes/web.css';
-?></style><?php
-}
-else {
-?>
-	<link rel="stylesheet" type="text/css" href="/includes/web.css" />
-<?php
-}
-?>
 	<style>
 /* reset =================================================== */
 * { margin: 0; padding: 0; }
