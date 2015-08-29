@@ -9,7 +9,7 @@
 				<p>I have over two decades' experience in IT and have successfully managed numerous projects of varying size for a number of clients.</p>
 				<p>I can help with all things IT - no project is too small. Feel free to <a href="/contact/">contact me</a> for a free initial consultation.</p>
 				<h2>From the Blog</h2><?php
-	$headlines = load_blog_feed();
+	include $_SERVER['DOCUMENT_ROOT'] . '/cron/blog_feed.php';
 
 	echo substr($headlines[0]["article"], 0, strpos($headlines[0]["article"], "</p>")) . ' <a href="/blog/">Read More...</a></p>';
 ?>
