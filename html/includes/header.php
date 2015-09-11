@@ -247,6 +247,7 @@ footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
 footer section .github span { background: url('/img/github.png'); }
 footer section .spiceworks span { background: url('/img/spiceworks.png'); }
 footer section .linkedin span { background: url('/img/linkedin.png'); }
+footer section .pph span { background: url('/img/pph.png'); }
 
 footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
 footer section p.ipv6 a:hover { border: none; }
