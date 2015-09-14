@@ -17,7 +17,7 @@
 				<h2>AddThis</h2>
 				<p>The cookies __atuvc, __atuvs and __atpro[...] are used to personalise the AddThis social media buttons used on this site.</p>
 				<p>See <a href="http://www.addthis.com/privacy/privacy-policy">AddThis privacy policy</a> for more information.</p>
-				<p>New Relic</p>
+				<h2>New Relic</h2>
 				<p>The NREUM cookie is only created in browsers that do not support the Navigation Timing API, which allows web page performance to be monitored.</p>
 				<p>The NRAGENT cookie is created only when a token is handed out to your browser and is also used to measure web page performance.</p>
 				<p>Finally, the JSESSIONID cookie is used to store a session identifier to monitor session counts for the website.</p>
