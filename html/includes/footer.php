@@ -22,6 +22,8 @@
 				<p class="social"><span class="button social"><span></span>Social</span> <strong>Follow Me</strong><br />
 					<a class="linkedin" href="http://uk.linkedin.com/in/oliverkinne"><span></span>LinkedIn</a> <a class="pph" href="http://pph.me/oliverkinne"><span></span>PeoplePerHour</a> <a class="spiceworks" href="http://community.spiceworks.com/people/oliverkinne/"><span></span>Spiceworks</a> <a class="github" href="https://github.com/oliverkinne"><span></span>GitHub</a></p>
 	
+				<p class="cookies"><a href="/cookies/"><img src="/img/cookies.png" width="45" height="45" alt="Cookies used on this Site"></a></p>
+
 				<p class="ipv6"><a href="http://www.worldipv6launch.org/"><img src="/img/ipv6.png" width="45" height="52" alt="IPv6 World Launch Day"></a></p>
 
 				<div class="clear">&nbsp;</div>

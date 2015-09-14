@@ -65,6 +65,9 @@ switch ($mainPath) {
 	case "/contact/":
 ?>Please contact me for further information on how I can help your business.<?php
 		break;
+	case "/cookies/":
+?>A list of cookies used on this site and their purpose.<?php
+		break;
 	default:
 ?>If you need help with your IT, websites, emails or related technologies, please feel free to contact me. I have over two decades' experience in IT and have successfully managed a large number of projects of varying sizes.<?php
 		break;
@@ -86,6 +89,9 @@ switch ($mainPath) {
 		break;
 	case "/contact/":
 ?>Contact - <?php
+		break;
+	case "/cookies/":
+?>Cookies - <?php
 		break;
 }
 ?>Oliver Kinne - Web Development / IT Consultancy</title>  
@@ -241,16 +247,17 @@ footer section p .button.tel span { background: url('/img/phone.png'); }
 footer section p .button.email span { background: url('/img/email.png'); }
 footer section p .button.social span { background: url('/img/social.png'); }
 
-footer section p.social { width: 177px; }
-footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 10px 0 0; }
+footer section p.social { width: 157px; }
+footer section p.social a { display: block; float: left; width: 16px; height: 16px; margin: 3px 5px 0 0; }
 footer section p.social a:hover { opacity: 0.6; filter: alpha(opacity=60); }
 footer section .github span { background: url('/img/github.png'); }
 footer section .spiceworks span { background: url('/img/spiceworks.png'); }
 footer section .linkedin span { background: url('/img/linkedin.png'); }
 footer section .pph span { background: url('/img/pph.png'); }
 
-footer section p.ipv6 { width: 45px; padding-right: 0; margin-top: -7px; }
-footer section p.ipv6 a:hover { border: none; }
+footer section p.cookies { margin-right: 20px; }
+footer section p.ipv6, footer section p.cookies { width: 45px; padding-right: 0; margin-top: -7px; }
+footer section p.ipv6 a:hover, footer section p.cookies a:hover { border: none; }
 
 /* media queries =================================================== */
 @media only screen and (max-width: 905px) {
@@ -292,7 +299,8 @@ footer section p.ipv6 a:hover { border: none; }
 
 	/* footer =================================================== */
 	footer section p.tel, footer section p.social, footer section p.email { width: 207px; padding-right: 0; }
-	footer section p.ipv6 { width: 50px; }
+	footer section p.cookies { margin: -70px 0 0 0; }
+	footer section p.ipv6, footer section p.cookies { width: 50px; margin-left: 40px; }
 }
 
 @media only screen and (max-width: 905px) {
