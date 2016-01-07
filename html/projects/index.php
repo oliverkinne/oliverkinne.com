@@ -20,7 +20,7 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Puppet, DevOps, Apache, IIS, GitHub, Cloud Computing, MySQL</p>
 
 				<h3 class="github">GitHub</h3>
@@ -38,7 +38,7 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Zenoss, Slack, WebHooks, DevOps</p>
 
 				<h3 class="github">GitHub</h3>
@@ -56,7 +56,7 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Webistrano, Capistrano, Xen, Virtualization, CentOS, Networking</p>
 			</aside>
 
@@ -70,7 +70,7 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Virtualization, Zenoss, CentOS, System Administration, Servers</p>
 			</aside>
 
@@ -88,10 +88,10 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>SQL Server, CRM, Cloud Computing, Project Management</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/crm-migration">Spiceworks Project Page</a></li>
 				</ul>
@@ -109,10 +109,10 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, ASP, Dreamweaver, Web Development, Illustrator Photoshop, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://www.pentonuk.co.uk/ipower/">Website</a></li>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/i-power-website-build">Spiceworks Project Page</a></li>
@@ -130,10 +130,10 @@
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, YaST, Dreamweaver, Web Development, GitHub, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://www.clansofmacaria.com/">Website</a></li>
 					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria">GitHub Repository</a></li>
@@ -157,10 +157,10 @@ GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, YaST, Dreamweaver, Web Development, GitHub, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://www.oliverkinne.com/">Website</a></li>
 					<li><a href="https://github.com/oliverkinne/oliverkinne.com">GitHub Repository</a></li>
@@ -183,10 +183,10 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>CMS, Cloud Computing</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/confluence-by-atlassian-installation">Spiceworks Project Page</a></li>
 				</ul>
@@ -208,10 +208,10 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>PCI DSS, Payment Processing</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/pci-dss-compliance">Spiceworks Project Page</a></li>
 				</ul>
@@ -230,10 +230,10 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Cloud Computing, Office 365, Microsoft Exchange, Team Leadership, Project Management</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/on-premise-exchange-to-office-365-migration">Spiceworks Project Page</a></li>
 				</ul>
@@ -249,10 +249,10 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, GitHub, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://www.lsionline.co.uk/">Website</a></li>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/website-rebuild">Spiceworks Project Page</a></li>
@@ -273,11 +273,11 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, GitHub, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="https://www.plasamanuals.com/plasa2013/">Website</a></li>
 				</ul>
@@ -294,7 +294,7 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JScript, GitHub, PCI DSS, Payment Processing</p>
 
 				<h3 class="github">GitHub</h3>
@@ -309,7 +309,7 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>JScript, JavaScript, JQuery, Web Development, GitHub</p>
 
 				<h3 class="github">GitHub</h3>
@@ -331,10 +331,10 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Virtualization, Cloud Computing, SQL Server, Networking, Servers, Firewalls, Network Administration</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/virtualization-of-web-server">Spiceworks Project Page</a></li>
 				</ul>
@@ -358,10 +358,10 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Networking, Servers, Firewalls</p>
 
-				<h3>Related Links</h3>
+				<h3>Links</h3>
 				<ul>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/office-relocation">Spiceworks Project Page</a></li>
 				</ul>
@@ -375,7 +375,7 @@ Budgets</p>
 			</aside>
 
 			<aside class="side">
-				<h3>Related Skills</h3>
+				<h3>Skills</h3>
 				<p>Databases, Operating Systems, System Administration, C++</p>
 			</aside>
 
