@@ -6,13 +6,13 @@
 
 			<aside style="clear: none; float: left">
 				<div class="addthis_sharing_toolbox homepage"></div>
-				<p>I have over two decades' experience in IT and have successfully managed numerous projects of varying size for a number of clients.</p>
-				<p>I can help with all things IT - no project is too small. Feel free to <a href="/contact/">contact me</a> for a free initial consultation.</p>
-				<h2>From the Blog</h2><?php
+				<?php
 	include $_SERVER['DOCUMENT_ROOT'] . '/cron/blog_feed.php';
 
 	echo substr($headlines[0]["article"], 0, strpos($headlines[0]["article"], "</p>")) . ' <a href="/blog/">Read More...</a></p>';
 ?>
+				<p>I have over two decades' experience in all things IT and have successfully managed numerous projects of varying size for a number of clients.</p>
+				<p>I can help you and your business with free initial consultation. Feel free to <a href="/contact/">contact me</a> - no job is too small.</p>
 			</aside>
 
 			<nav>
