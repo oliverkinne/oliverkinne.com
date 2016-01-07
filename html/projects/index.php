@@ -21,9 +21,9 @@
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>Puppet, DevOps, Apache, IIS, Github, Cloud Computing, MySQL</p>
+				<p>Puppet, DevOps, Apache, IIS, GitHub, Cloud Computing, MySQL</p>
 
-				<h3 class="github">Github Updates</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -41,7 +41,7 @@
 				<h3>Related Skills</h3>
 				<p>Zenoss, Slack, WebHooks, DevOps</p>
 
-				<h3 class="github">Github Updates</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -131,7 +131,7 @@
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, MySQL, YaST, Dreamweaver, Web Development, GitHub, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
 
 				<h3>Related Links</h3>
 				<ul>
@@ -140,7 +140,6 @@
 					<li><a href="https://github.com/oliverkinne/Clans-of-Macaria/wiki/Entity-Relationship-Diagramme">Entity Relationship Diagramme</a></li>
 				</ul>
 
-				<h3 class="github">Github Updates</h3>
 <?php
 GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 ?>
@@ -159,7 +158,7 @@ GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, YaST, Dreamweaver, Web Development, Github, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, PHP, CDN, YaST, Dreamweaver, Web Development, GitHub, Amazon Web Services, Virtualization, Cloud Computing, Project Management, System Administration, Firewalls</p>
 
 				<h3>Related Links</h3>
 				<ul>
@@ -167,7 +166,6 @@ GitHubEvents('/repos/oliverkinne/clans-of-macaria/events');
 					<li><a href="https://github.com/oliverkinne/oliverkinne.com">GitHub Repository</a></li>
 				</ul>
 
-				<h3 class="github">Github Updates</h3>
 <?php
 GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 ?>
@@ -252,16 +250,15 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, Github, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
+				<p>JScript, JavaScript, JQuery, SEO, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Email Marketing, GitHub, Photoshop, Flash, Virtualization, IIS, Team Leadership, Project Management</p>
 
 				<h3>Related Links</h3>
 				<ul>
 					<li><a href="http://www.lsionline.co.uk/">Website</a></li>
 					<li><a href="http://community.spiceworks.com/people/oliverkinne/projects/website-rebuild">Spiceworks Project Page</a></li>
-					<li><a href="https://github.com/plasa/LSi_Online_2012">GitHub Repository</a></li>
 				</ul>
 
-				<h3 class="github">Github Updates</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -277,16 +274,15 @@ GitHubEvents('/repos/oliverkinne/oliverkinne.com/events');
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, Github, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
+				<p>JScript, JavaScript, JQuery, HTML, CSS, ASP, Databases, Dreamweaver, Web Development, GitHub, Virtualization, IIS, IT Strategy, Cloud Computing, Project Management, 
 Budgets</p>
 
 				<h3>Related Links</h3>
 				<ul>
 					<li><a href="https://www.plasamanuals.com/plasa2013/">Website</a></li>
-					<li><a href="https://github.com/plasa/PLASA_Manuals">GitHub Repository</a></li>
 				</ul>
 
-				<h3 class="github">Github Updates</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The system's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -299,14 +295,9 @@ Budgets</p>
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JScript, Github, PCI DSS, Payment Processing</p>
+				<p>JScript, GitHub, PCI DSS, Payment Processing</p>
 
-				<h3>Related Links</h3>
-				<ul>
-					<li><a href="https://github.com/plasa/PLASA_Lib/blob/master/sagepay.asp">GitHub Repository</a></li>
-				</ul>
-
-				<h3 class="github">Github</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The module's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -319,14 +310,9 @@ Budgets</p>
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>JScript, JavaScript, JQuery, Web Development, Github</p>
+				<p>JScript, JavaScript, JQuery, Web Development, GitHub</p>
 
-				<h3>Related Links</h3>
-				<ul>
-					<li><a href="https://github.com/plasa/PLASA_Lib">GitHub Repository</a></li>
-				</ul>
-
-				<h3 class="github">Github Updates</h3>
+				<h3 class="github">GitHub</h3>
 				<p>The library's code is maintained as a private GitHub repository for versioning and change tracking.</p>
 			</aside>
 
@@ -408,6 +394,7 @@ function GitHubEvents($githubapiurl) {
 
 	if (count($events) > 0) {
 ?>
+				<h3 class="github">GitHub Updates</h3>
 				<div class="scroll">
 					<ul>
 <?php
