@@ -12,7 +12,7 @@
 	echo substr($headlines[0]["article"], 0, strpos($headlines[0]["article"], "</p>")) . ' <a href="/blog/">Read More...</a></p>';
 ?>
 				<p>I have over two decades' experience in all things IT and have successfully managed numerous projects of varying size for a number of clients.</p>
-				<p>I can help you and your business with free initial consultation. Feel free to <a href="/contact/">contact me</a> - no job is too small.</p>
+				<p>I can help you and your business. Feel free to <a href="/contact/">contact me</a> for a free, initial consultation. No job is too small.</p>
 			</aside>
 
 			<nav>
