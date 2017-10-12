@@ -10,7 +10,33 @@
 			</aside>
 
 			<aside>
-				<h2>Custom Puppet modules</h2>
+				<h2>Penton UK Website Rebuild</h2>
+				<p class="dates"><?php print_date_range('1 July 2017', '1 October 2017') ?></p>
+				<p class="team"></p>
+				<p>Penton UK's website had been live for a number of years and was starting to show its age - both visually to the end user, as well as technically behind the scenes to search engines.</p>
+				<p>The company had no need for a full blown CMS, preferring to have changes to the website handled as one-off jobs as and when needed.</p>
+				<p>The site is therefore a collection of static pages, but taking advantage of some coding for functionality such as contact form submissions and making the code more modular.</p>
+				<p>The whole site was built from the ground up with SEO and mobile friendliness in mind, so a lot of the work was put in behind the scenes. Yet, at the same time, the new design also created a huge visual change that helped justify the complete rebuild.</p>
+				<p>The new code made the website work around twice as fast, again improving SEO, as well as making it quicker to use for website visitors.</p>
+                <p>Overall the new site has proven a success and it will continue to be developed and improved to keep it up-to-date and functionally sharp.</p>
+			</aside>
+
+			<aside class="side">
+				<h3>Skills</h3>
+				<p>JavaScript, JQuery, SEO, HTML, CSS, ASP, Web Development, Photoshop, Amazon Web Services, Virtualization, Cloud Computing, Project Management</p>
+
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://www.pentonuk.co.uk/">Website</a></li>
+					<li><a href="https://community.spiceworks.com/people/oliverkinne/projects/penton-website-redesign-and-rebuild">Spiceworks Project Page</a></li>
+				</ul>
+
+                <h3 class="bitbucket">BitBucket</h3>
+				<p>The site's code is maintained as a private BitBucket repository for versioning and change tracking.</p>
+			</aside>
+
+			<aside>
+				<h2>Custom Puppet Modules</h2>
 				<p class="dates"><?php print_date_range('1 January 2015', null) ?></p>
 				<p class="team"></p>
 				<p>I look after about a dozen virtual servers or so, mostly Linux machines, but also some Windows servers. Currently we configure each server manually, but using Puppet will make it much easier.</p>
@@ -21,7 +47,7 @@
 
 			<aside class="side">
 				<h3>Skills</h3>
-				<p>Puppet, DevOps, Apache, IIS, GitHub, Cloud Computing, MySQL</p>
+				<p>Puppet, DevOps, Apache, IIS, Git, Cloud Computing, MySQL</p>
 
 				<h3 class="github">GitHub</h3>
 				<p>The site's code is maintained as a private GitHub repository for versioning and change tracking.</p>
