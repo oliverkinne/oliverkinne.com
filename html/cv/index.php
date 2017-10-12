@@ -12,8 +12,22 @@
 			</aside>
 
 			<aside>
+				<h2>Travelopia Ltd</h2>
+				<p class="dates">November 2016 - Present</p>
+				<p class="team">DevOps Engineer</p>
+				<p>I work closely with a number of in-house and external development teams and maintain a suite of servers which host a large range of websites. I am responsible for ensuring the smooth running of the website environments and that deployments are done in a controlled and safe manner.</p>
+				<p>I look after several dozen servers, including IIS, LAMP, database, Solr and Memcached servers, as well as load balancers and firewalls, mostly hosted in Amazon Web Services. I ensure the servers are configured securely and regularly updated, and meet performance requirements.</p>
+				<p>The tools I use include Puppet, Git, Jenkins, JIRA, Confluence, Slack and Zenoss.</p>
+			</aside>
+
+			<aside class="side">
+				<h3>Related Skills</h3>
+				<p>DevOps, JIRA, Drupal, Apache, Zenoss, IIS, MySQL, SQL Server, Solr, Cloud Computing, Virtualization, GitHub, PHP, CentOS, Windows Server, Confluence, Jenkins, Puppet</p>
+			</aside>
+
+			<aside>
 				<h2>TUI Travel PLC</h2>
-				<p class="dates">June 2014 - Present</p>
+				<p class="dates">June 2014 - November 2016</p>
 				<p class="team">DevOps Engineer</p>
 				<p>I work closely with the in-house development team who use Git for version control and as a method of code and configuration deployment, as well as Webistrano/Capistrano for deployment automation. Drupal is the CMS chosen for the websites, allowing the business teams to update content when they need.</p>
 				<p>I am responsible for the deployment of code and configuration to UAT, pre-production or production servers as requested by the development team. I am also responsible for two Windows and a dozen LAMP servers, monitoring and maintaining them on a daily basis to keep them secure and running at peak performance.</p>
@@ -22,7 +36,7 @@
 
 			<aside class="side">
 				<h3>Related Skills</h3>
-				<p>DevOps, JIRA, Drupal, Apache, Xen, Zenoss, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, Github, PHP, ASP, CentOS, Windows Server, Confluence, Webistrano, Capistrano</p>
+				<p>DevOps, JIRA, Drupal, Apache, Xen, Zenoss, IIS, MySQL, SQL Server, Cloud Computing, Virtualization, GitHub, PHP, ASP, CentOS, Windows Server, Confluence, Webistrano, Capistrano</p>
 			</aside>
 
 			<aside>
